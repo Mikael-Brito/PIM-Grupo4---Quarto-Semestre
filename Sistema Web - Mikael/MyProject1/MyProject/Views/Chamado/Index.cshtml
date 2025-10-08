@@ -1,0 +1,74 @@
+@page
+@model MyProject.Views.Chamado.IndexModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ChamadoModel[0].Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChamadoModel[0].Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChamadoModel[0].Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChamadoModel[0].DataAbertura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChamadoModel[0].DataFechamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChamadoModel[0].Usuario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.ChamadoModel) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataAbertura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataFechamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario.Id)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>
