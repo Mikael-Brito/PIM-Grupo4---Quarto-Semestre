@@ -1,125 +1,125 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\chamado\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\chamado\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\usuario\\apagar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\usuario\\apagar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\usuario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\usuario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\chamado\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\chamado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\chamado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\chamado\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\chamado\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\chamado\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\chamado\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\chamado\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\chamado\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\chamado\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\chamado\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\chamado\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\chamado\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\chamado\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\chamado\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\usuario\\apagar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\usuario\\apagar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\usuario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\usuario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\chamado\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\chamado\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\chamado\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\chamado\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\chamado\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\models\\chamadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\models\\chamadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\models\\chamadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\controllers\\chamadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\controllers\\chamadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\controllers\\chamadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_corrigido_views\\myproject\\myproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject1\\myproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C6509836-5D78-4331-8A6D-F558C5EFDDC0}|MyProject\\MyProject.csproj|solutionrelative:myproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -130,116 +130,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 179,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Index.cshtml.cs",
-              "RelativeToolTip": "MyProject\\Views\\Chamado\\Index.cshtml.cs",
+              "DocumentIndex": 3,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Criar.cshtml",
+              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Criar.cshtml",
+              "RelativeToolTip": "MyProject\\Views\\Chamado\\Criar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T21:25:26.032Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T01:29:13.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Delete.cshtml",
-              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Delete.cshtml",
-              "RelativeToolTip": "MyProject\\Views\\Chamado\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyProject\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "MyProject\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T21:25:25.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Details.cshtml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Details.cshtml.cs",
-              "RelativeToolTip": "MyProject\\Views\\Chamado\\Details.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T21:25:25.733Z"
+              "WhenOpened": "2025-10-05T19:21:25.949Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Create.cshtml",
-              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Create.cshtml",
-              "RelativeToolTip": "MyProject\\Views\\Chamado\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T21:25:25.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Index.cshtml",
-              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Index.cshtml",
-              "RelativeToolTip": "MyProject\\Views\\Chamado\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T21:24:41.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Usuario\\Editar.cshtml",
-              "RelativeDocumentMoniker": "MyProject\\Views\\Usuario\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Usuario\\Editar.cshtml",
-              "RelativeToolTip": "MyProject\\Views\\Usuario\\Editar.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T19:21:25.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Usuario\\Index.cshtml",
-              "RelativeDocumentMoniker": "MyProject\\Views\\Usuario\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Usuario\\Index.cshtml",
-              "RelativeToolTip": "MyProject\\Views\\Usuario\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T19:21:25.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ChatBot.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\ChatBot.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\ChatBot.cshtml",
               "RelativeDocumentMoniker": "MyProject\\Views\\ChatBot.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\ChatBot.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\ChatBot.cshtml",
               "RelativeToolTip": "MyProject\\Views\\ChatBot.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAFMAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAFMAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-05T21:15:36.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Index.cshtml.cs",
+              "RelativeToolTip": "MyProject\\Views\\Chamado\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T21:25:26.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Delete.cshtml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Delete.cshtml.cs",
               "RelativeToolTip": "MyProject\\Views\\Chamado\\Delete.cshtml.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -247,74 +196,48 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Create.cshtml",
+              "RelativeToolTip": "MyProject\\Views\\Chamado\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T21:25:25.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Delete.cshtml",
+              "RelativeToolTip": "MyProject\\Views\\Chamado\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T21:25:25.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MyProject\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "MyProject\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwEwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T19:17:22.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T19:17:22.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Criar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Usuario\\Criar.cshtml",
-              "RelativeDocumentMoniker": "MyProject\\Views\\Usuario\\Criar.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Usuario\\Criar.cshtml",
-              "RelativeToolTip": "MyProject\\Views\\Usuario\\Criar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T19:21:24.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Apagar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Usuario\\Apagar.cshtml",
-              "RelativeDocumentMoniker": "MyProject\\Views\\Usuario\\Apagar.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Usuario\\Apagar.cshtml",
-              "RelativeToolTip": "MyProject\\Views\\Usuario\\Apagar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T19:21:24.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ChatBot.css",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\wwwroot\\css\\ChatBot.css",
-              "RelativeDocumentMoniker": "MyProject\\wwwroot\\css\\ChatBot.css",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\wwwroot\\css\\ChatBot.css",
-              "RelativeToolTip": "MyProject\\wwwroot\\css\\ChatBot.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-06T00:40:51.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Pages\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "MyProject\\Pages\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Pages\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "MyProject\\Pages\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T21:25:26.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Details.cshtml",
               "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Details.cshtml",
               "RelativeToolTip": "MyProject\\Views\\Chamado\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -322,11 +245,109 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Edit.cshtml",
+              "RelativeToolTip": "MyProject\\Views\\Chamado\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T21:25:25.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Index.cshtml",
+              "RelativeToolTip": "MyProject\\Views\\Chamado\\Index.cshtml",
+              "ViewState": "AgIAAAEAAABAmZmZmRkmwCwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T21:24:41.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T19:21:17.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Usuario\\Editar.cshtml",
+              "RelativeDocumentMoniker": "MyProject\\Views\\Usuario\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Usuario\\Editar.cshtml",
+              "RelativeToolTip": "MyProject\\Views\\Usuario\\Editar.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T19:21:25.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Usuario\\Criar.cshtml",
+              "RelativeDocumentMoniker": "MyProject\\Views\\Usuario\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Usuario\\Criar.cshtml",
+              "RelativeToolTip": "MyProject\\Views\\Usuario\\Criar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T19:21:24.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatBot.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\wwwroot\\css\\ChatBot.css",
+              "RelativeDocumentMoniker": "MyProject\\wwwroot\\css\\ChatBot.css",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\wwwroot\\css\\ChatBot.css",
+              "RelativeToolTip": "MyProject\\wwwroot\\css\\ChatBot.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-06T00:40:51.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Details.cshtml.cs",
+              "RelativeToolTip": "MyProject\\Views\\Chamado\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T21:25:25.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Apagar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Usuario\\Apagar.cshtml",
+              "RelativeDocumentMoniker": "MyProject\\Views\\Usuario\\Apagar.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Usuario\\Apagar.cshtml",
+              "RelativeToolTip": "MyProject\\Views\\Usuario\\Apagar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T19:21:24.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Edit.cshtml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Edit.cshtml.cs",
               "RelativeToolTip": "MyProject\\Views\\Chamado\\Edit.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -334,23 +355,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Edit.cshtml",
-              "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Edit.cshtml",
-              "RelativeToolTip": "MyProject\\Views\\Chamado\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T21:25:25.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "MyProject\\Views\\Chamado\\Create.cshtml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Chamado\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Chamado\\Create.cshtml.cs",
               "RelativeToolTip": "MyProject\\Views\\Chamado\\Create.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -358,23 +367,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MyProject\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MyProject\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T19:21:17.189Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 24,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Shared\\Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "MyProject\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Shared\\Error.cshtml",
               "RelativeToolTip": "MyProject\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -384,9 +381,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "UsuarioModel.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Models\\UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Models\\UsuarioModel.cs",
               "RelativeDocumentMoniker": "MyProject\\Models\\UsuarioModel.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Models\\UsuarioModel.cs",
               "RelativeToolTip": "MyProject\\Models\\UsuarioModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -396,9 +393,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "ChamadoController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Controllers\\ChamadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Controllers\\ChamadoController.cs",
               "RelativeDocumentMoniker": "MyProject\\Controllers\\ChamadoController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Controllers\\ChamadoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Controllers\\ChamadoController.cs",
               "RelativeToolTip": "MyProject\\Controllers\\ChamadoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -408,9 +405,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MyProject\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MyProject\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -420,9 +417,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Controllers\\UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "MyProject\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "MyProject\\Controllers\\UsuarioController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -432,9 +429,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "ChamadoModel.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Models\\ChamadoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Models\\ChamadoModel.cs",
               "RelativeDocumentMoniker": "MyProject\\Models\\ChamadoModel.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Models\\ChamadoModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Models\\ChamadoModel.cs",
               "RelativeToolTip": "MyProject\\Models\\ChamadoModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -444,9 +441,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "MyProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "MyProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -456,9 +453,9 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "MyProject\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "MyProject\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -468,9 +465,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MyProject\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "MyProject\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -480,9 +477,9 @@
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MyProject\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Properties\\launchSettings.json",
               "RelativeToolTip": "MyProject\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -492,9 +489,9 @@
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "MyProject\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_Corrigido_Views\\MyProject\\MyProject\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject1\\MyProject\\Data\\AppDbContext.cs",
               "RelativeToolTip": "MyProject\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

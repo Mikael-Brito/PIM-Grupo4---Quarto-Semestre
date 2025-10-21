@@ -1,102 +1,56 @@
-﻿<!-- Pagina em que vai aparecer em todas as outras abas -->
-
-<!DOCTYPE html>
-<html lang="pt-br" data-bs-theme="dark">
+﻿<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - HelpDesk - Ads</title>
-    <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/MyProject.styles.css" asp-append-version="true" />
 </head>
 <body>
 
-
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index"><img src="~/img/icon blue.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">HelpDesk - ADS</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 nav-tabs" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" aria-current="page" asp-area="" asp-controller="Home" asp-action="Index">Pag Inicial</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" aria-current="page" asp-area="" asp-controller="Usuario" asp-action="Index">Inicio Usuario</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Privacidade
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-controller="Home" asp-action="Privacy">Termos de Privacidade</a></li>
-                                <li><a class="dropdown-item" asp-controller="#" asp-action="#">Normas de altenticação</a></li>
-                                <li><a class="dropdown-item" asp-controller="#" asp-action="#">Manual do usuario</a></li>
-                                <li><a class="dropdown-item" asp-controller="#" asp-action="#">Parcerias</a></li>
-                                <!--
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                -->
-                            </ul>
-                        </li>
-                        <!--Link não abilitado
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Link</a>
-                        </li>
-                        -->
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-        <!--
-        <nav class="navbar navbar-expand-sm navbar-togglseable-sm navbar-dark bg-dark border-bottom box-shadow">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light border-bottom box-shadow">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/Icon Blue.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">HelpDesk - Ads</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/img/Icon Blue.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    HelpDesk - Ads
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Pag Inicial</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Pag Inicial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Usuario" asp-action="Index">Inicio Usuario</a>
+                            <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="Index">Inicio Usuario</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a>
                         </li>
-
-
                     </ul>
                 </div>
             </div>
         </nav>
-        -->
     </header>
 
-    <!-- Esse parte ele coloca as informações das outras abas -->
-    <div class="container">
+    <div class="container text-dark">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted bg-white">
         <div class="container">
             &copy; 2025 - HelpDesk - Ads - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
