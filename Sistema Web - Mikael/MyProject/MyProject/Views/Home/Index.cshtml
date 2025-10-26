@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Chat com IA - Suporte";
+}
+
+<link rel="stylesheet" href="~/css/ChatBot.css" />
+
+<bodyChat>
+    <div class="chat-container">
+        <h1>Chat com IA - Suporte Técnico</h1>
+        <p>Descreva seu problema e nossa IA tentará ajudá-lo. Se não conseguir resolver, você poderá abrir um chamado.</p>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="message ai-message">
+                <strong>IA:</strong> Olá! Sou seu assistente virtual. Como posso ajudá-lo hoje? Descreva o problema que está enfrentando.
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Digite sua mensagem..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+
+        <div class="action-buttons">
+            <button onclick="resolverProblema()" style="background-color: green; color: white;">Problema Resolvido</button>
+            <button onclick="naoResolveu()" style="background-color: red; color: white;">Não Resolveu - Abrir Chamado</button>
+        </div>
+    </div>
+
+    <script>
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('userInput');
+            const message = input.value.trim();
+
+            if (message === '') return;
+
+            // Adicionar mensagem do usuário
+            addMessage('Usuário', message, 'user-message');
+
+            // Limpar input
+            input.value = '';
+
+            // Simular resposta da IA
+            setTimeout(() => {
+                const aiResponse = generateAIResponse(message);
+                addMessage('IA', aiResponse, 'ai-message');
+            }, 1000);
+        }
+
+        function addMessage(sender, message, className) {
+            const chatMessages = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message ' + className;
+            messageDiv.innerHTML = '<strong>' + sender + ':</strong> ' + message;
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function generateAIResponse(userMessage) {
+            const responses = [
+                "Entendo seu problema. Vamos tentar algumas soluções básicas primeiro. Você já tentou reiniciar a aplicação?",
+                "Esse tipo de erro geralmente está relacionado à conexão com o banco de dados. Verifique se o servidor SQL está rodando.",
+                "Para problemas de conectividade, recomendo verificar: 1) String de conexão, 2) Credenciais do banco, 3) Firewall.",
+                "Se o problema persistir após essas verificações, pode ser necessário abrir um chamado para análise mais detalhada.",
+                "Baseado na sua descrição, sugiro verificar os logs da aplicação para mais detalhes sobre o erro."
+            ];
+
+            return responses[Math.floor(Math.random() * responses.length)];
+        }
+
+        function resolverProblema() {
+            alert('Ótimo! Fico feliz que conseguimos resolver seu problema. Tenha um bom dia!');
+            window.location.href = '/';
+        }
+
+        function naoResolveu() {
+            if (confirm('Você será redirecionado para abrir um chamado. Deseja continuar?')) {
+                window.location.href = '/Chamado/Create';
+            }
+        }
+    </script>
+</bodyChat>

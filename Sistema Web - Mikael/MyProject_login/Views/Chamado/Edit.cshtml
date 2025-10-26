@@ -1,0 +1,105 @@
+﻿@model MyProject.Models.ChamadoModel
+
+@{
+    ViewData["Title"] = "Editar Chamado";
+}
+
+<div class="container">
+    <h1 class="display-4 mb-4">Editar Chamado #@Model.Id</h1>
+
+    <div class="row">
+        <div class="col-md-8">
+            <form asp-action="Editar" method="post">
+                <input asp-for="Id" type="hidden" />
+                <input asp-for="DataAbertura" type="hidden" />
+
+                <div class="mb-3">
+                    <label asp-for="Titulo" class="form-label">Título</label>
+                    <input asp-for="Titulo" class="form-control">
+                    <span asp-validation-for="Titulo" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Descricao" class="form-label">Descrição</label>
+                    <textarea asp-for="Descricao" class="form-control" rows="4"></textarea>
+                    <span asp-validation-for="Descricao" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CategoriaId" class="form-label">Categoria</label>
+                    <select asp-for="CategoriaId" class="form-select">
+                        <option value="">Selecione uma categoria</option>
+                        @if (ViewBag.Categorias != null)
+                        {
+                            @foreach (var categoria in (List<MyProject.Models.CategoriaModel>)ViewBag.Categorias)
+                            {
+                                <option value="@categoria.Id" selected="@(categoria.Id == Model.CategoriaId)">
+                                    @categoria.Nome
+                                </option>
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="CategoriaId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Prioridade" class="form-label">Prioridade</label>
+                    <select asp-for="Prioridade" class="form-select" asp-items="Html.GetEnumSelectList<MyProject.Models.PrioridadeChamado>()"></select>
+                    <span asp-validation-for="Prioridade" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Status" class="form-label">Status</label>
+                    <select asp-for="Status" class="form-select">
+                        <option value="Aberto">Aberto</option>
+                        <option value="Em Andamento">Em Andamento</option>
+                        <option value="Fechado">Fechado</option>
+                    </select>
+                    <span asp-validation-for="Status" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="UsuarioId" class="form-label">Usuário Responsável</label>
+                    <select asp-for="UsuarioId" class="form-select">
+                        @if (ViewBag.Usuarios != null)
+                        {
+                            @foreach (var usuario in (List<MyProject.Models.UsuarioModel>)ViewBag.Usuarios)
+                            {
+                                <option value="@usuario.Id" selected="@(usuario.Id == Model.UsuarioId)">
+                                    @usuario.Nome - @usuario.Email
+                                </option>
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="UsuarioId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Data de Abertura</label>
+                    <input type="text" class="form-control" value="@Model.DataAbertura.ToString("dd/MM/yyyy HH:mm")" readonly>
+                </div>
+
+                @if (Model.DataFechamento.HasValue)
+                {
+                    <div class="mb-3">
+                        <label class="form-label">Data de Fechamento</label>
+                        <input type="text" class="form-control" value="@Model.DataFechamento.Value.ToString("dd/MM/yyyy HH:mm")" readonly>
+                    </div>
+                }
+
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save"></i> Salvar Alterações
+                    </button>
+                    <a asp-controller="Chamado" asp-action="Index" class="btn btn-secondary">
+                        <i class="fas fa-arrow-left"></i> Voltar
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

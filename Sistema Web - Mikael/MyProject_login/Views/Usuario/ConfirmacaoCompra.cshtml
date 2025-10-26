@@ -1,0 +1,177 @@
+@{
+    ViewData["Title"] = "Confirmação de Compra";
+    var plano = ViewBag.Plano;
+    var usuario = ViewBag.Usuario;
+}
+
+<link rel="stylesheet" href="~/css/plans_and_auth.css" asp-append-version="true" />
+
+<div class="confirmation-container">
+    <!-- Success Header -->
+    <div class="success-header">
+        <div class="success-icon">✓</div>
+        <h1>Compra Realizada com Sucesso!</h1>
+        <p>Sua assinatura foi ativada e você já pode começar a usar o sistema.</p>
+    </div>
+
+    <!-- Plan Details -->
+    <div class="plan-details">
+        <h3>Detalhes da Assinatura</h3>
+        
+        <div class="detail-row">
+            <span class="detail-label">Plano Contratado:</span>
+            <span class="detail-value plan-name">
+                @if (plano == "plano1")
+                {
+                    <text>Plano Web Básico</text>
+                }
+                else if (plano == "plano2")
+                {
+                    <text>Plano Web + Desktop</text>
+                }
+                else if (plano == "plano3")
+                {
+                    <text>Plano Completo</text>
+                }
+                else
+                {
+                    <text>Plano Selecionado</text>
+                }
+            </span>
+        </div>
+
+        <div class="detail-row">
+            <span class="detail-label">Valor Mensal:</span>
+            <span class="detail-value plan-price">
+                @if (plano == "plano1")
+                {
+                    <text>R$ 199,00</text>
+                }
+                else if (plano == "plano2")
+                {
+                    <text>R$ 599,00</text>
+                }
+                else if (plano == "plano3")
+                {
+                    <text>R$ 999,00</text>
+                }
+                else
+                {
+                    <text>Valor do plano</text>
+                }
+            </span>
+        </div>
+
+        <div class="detail-row">
+            <span class="detail-label">Administrador:</span>
+            <span class="detail-value">@usuario?.Nome</span>
+        </div>
+
+        <div class="detail-row">
+            <span class="detail-label">Email:</span>
+            <span class="detail-value">@usuario?.Email</span>
+        </div>
+
+        <div class="detail-row">
+            <span class="detail-label">Data de Ativação:</span>
+            <span class="detail-value">@DateTime.Now.ToString("dd/MM/yyyy HH:mm")</span>
+        </div>
+    </div>
+
+    <!-- Features List -->
+    @if (plano == "plano1")
+    {
+        <div class="features-list">
+            <h3>Recursos Inclusos no Plano Web Básico</h3>
+            <ul>
+                <li>Acesso ao sistema Web</li>
+                <li>Gerenciamento de chamados</li>
+                <li>Até 10 usuários</li>
+                <li>Suporte por email</li>
+                <li>Relatórios básicos</li>
+                <li>Armazenamento até 5GB</li>
+            </ul>
+        </div>
+    }
+    else if (plano == "plano2")
+    {
+        <div class="features-list">
+            <h3>Recursos Inclusos no Plano Web + Desktop</h3>
+            <ul>
+                <li>Acesso ao sistema Web</li>
+                <li>Aplicativo Desktop para Windows</li>
+                <li>Gerenciamento de chamados avançado</li>
+                <li>Até 25 usuários</li>
+                <li>Suporte prioritário</li>
+                <li>Relatórios avançados</li>
+                <li>Armazenamento até 20GB</li>
+                <li>Download do aplicativo desktop</li>
+            </ul>
+        </div>
+    }
+    else if (plano == "plano3")
+    {
+        <div class="features-list">
+            <h3>Recursos Inclusos no Plano Completo</h3>
+            <ul>
+                <li>Acesso ao sistema Web</li>
+                <li>Aplicativo Desktop (Windows)</li>
+                <li>Aplicativo Mobile (iOS/Android)</li>
+                <li>Gerenciamento completo</li>
+                <li>Usuários ilimitados</li>
+                <li>Suporte 24/7 por telefone</li>
+                <li>Relatórios personalizados</li>
+                <li>Armazenamento ilimitado</li>
+                <li>API de integração</li>
+            </ul>
+        </div>
+    }
+
+    <!-- Next Steps -->
+    <div class="next-steps">
+        <h3>Próximos Passos</h3>
+        <ol>
+            <li><strong>Cadastre os usuários da sua empresa:</strong> Você pode adicionar até 10 usuários (ou mais, dependendo do plano) para que eles acessem o sistema.</li>
+            <li><strong>Configure as permissões:</strong> Defina quem pode criar, editar ou deletar chamados.</li>
+            <li><strong>Faça login no sistema:</strong> Use suas credenciais para acessar o painel de controle.</li>
+            <li><strong>Comece a gerenciar chamados:</strong> Crie, acompanhe e resolva chamados de suporte.</li>
+        </ol>
+    </div>
+
+    <!-- Download Section for Plans 2 and 3 -->
+    @if (plano == "plano2" || plano == "plano3")
+    {
+        <div class="features-list download-section">
+            <h3>📥 Downloads Disponíveis</h3>
+            <p>Você tem acesso aos seguintes aplicativos:</p>
+            <ul>
+                <li>
+                    <strong>Aplicativo Desktop (Windows)</strong> - 
+                    <a href="#">Baixar v1.0.0</a>
+                </li>
+                @if (plano == "plano3")
+                {
+                    <li>
+                        <strong>Aplicativo Mobile (iOS)</strong> - 
+                        <a href="#">Baixar v1.0.0</a>
+                    </li>
+                    <li>
+                        <strong>Aplicativo Mobile (Android)</strong> - 
+                        <a href="#">Baixar v1.0.0</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+
+    <!-- Action Buttons -->
+    <div class="action-buttons">
+        <a href="@Url.Action("Index", "Usuario")" class="btn-primary-custom">
+            Cadastrar Novos Usuários
+        </a>
+        <a href="@Url.Action("Login", "Login")" class="btn-secondary-custom">
+            Fazer Login
+        </a>
+    </div>
+</div>
+

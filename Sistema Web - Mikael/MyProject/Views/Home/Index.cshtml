@@ -1,0 +1,139 @@
+@{
+    ViewData["Title"] = "Planos de Venda - HelpDesk";
+}
+
+<link rel="stylesheet" href="~/css/plans_and_auth.css" asp-append-version="true" />
+
+<!-- Hero Section -->
+<div class="hero-section">
+    <h1>Bem-vindo ao HelpDesk - Ads</h1>
+    <p>Sistema completo de gerenciamento de chamados e suporte técnico</p>
+    <p class="mt-3">Escolha o plano perfeito para sua empresa</p>
+</div>
+
+<!-- Company Information -->
+<div class="company-info">
+    <h2>Sobre a HelpDesk - Ads</h2>
+    <p>
+        A <strong>HelpDesk - Ads</strong> é uma solução inovadora de gerenciamento de chamados e suporte técnico, 
+        desenvolvida para empresas de todos os tamanhos. Com mais de 5 anos no mercado, ajudamos milhares de 
+        empresas a otimizar seu atendimento ao cliente e melhorar a eficiência operacional.
+    </p>
+    <p>
+        Nossa plataforma oferece ferramentas poderosas para rastreamento de chamados, gerenciamento de usuários, 
+        análise de dados e muito mais. Somos comprometidos em fornecer a melhor experiência possível aos nossos clientes.
+    </p>
+    <p>
+        <strong>Missão:</strong> Transformar a forma como as empresas gerenciam seu suporte técnico através de 
+        tecnologia inteligente e fácil de usar.
+    </p>
+</div>
+
+<!-- Plans Section -->
+<h2 class="text-center mb-4 font-weight-bold text-dark">Nossos Planos</h2>
+
+<div class="plans-container">
+    <!-- Plano 1: Web Básico -->
+    <div class="plan-card">
+        <div class="plan-name">Plano Web Básico</div>
+        <div class="plan-price">R$ 199,00</div>
+        <div class="plan-price-period">por mês</div>
+        
+        <ul class="plan-features">
+            <li>Acesso ao sistema Web</li>
+            <li>Gerenciamento de chamados</li>
+            <li>Até 10 usuários</li>
+            <li>Suporte por email</li>
+            <li>Relatórios básicos</li>
+            <li>Armazenamento até 5GB</li>
+        </ul>
+        
+        <a href="/Usuario/Criar" class="plan-button plan-button-secondary">Escolher Plano</a>
+    </div>
+
+    <!-- Plano 2: Web + Desktop -->
+    <div class="plan-card featured">
+        <div class="plan-name">Plano Web + Desktop</div>
+        <div class="plan-price">R$ 599,00</div>
+        <div class="plan-price-period">por mês</div>
+        
+        <ul class="plan-features">
+            <li>Acesso ao sistema Web</li>
+            <li>Aplicativo Desktop para Windows</li>
+            <li>Gerenciamento de chamados avançado</li>
+            <li>Até 25 usuários</li>
+            <li>Suporte prioritário</li>
+            <li>Relatórios avançados</li>
+            <li>Armazenamento até 20GB</li>
+            <li>Download do aplicativo desktop</li>
+        </ul>
+        
+        <a href="/Usuario/Criar" class="plan-button plan-button-primary">Escolher Plano</a>
+    </div>
+
+    <!-- Plano 3: Completo -->
+    <div class="plan-card">
+        <div class="plan-name">Plano Completo</div>
+        <div class="plan-price">R$ 999,00</div>
+        <div class="plan-price-period">por mês</div>
+        
+        <ul class="plan-features">
+            <li>Acesso ao sistema Web</li>
+            <li>Aplicativo Desktop (Windows)</li>
+            <li>Aplicativo Mobile (iOS/Android)</li>
+            <li>Gerenciamento completo</li>
+            <li>Usuários ilimitados</li>
+            <li>Suporte 24/7 por telefone</li>
+            <li>Relatórios personalizados</li>
+            <li>Armazenamento ilimitado</li>
+            <li>API de integração</li>
+        </ul>
+        
+        <a href="/Usuario/Criar" class="plan-button plan-button-secondary">Escolher Plano</a>
+    </div>
+</div>
+
+<!-- Features Section -->
+<div class="features-section">
+    <h2>Por que escolher a HelpDesk - Ads?</h2>
+    
+    <div class="features-grid">
+        <div class="feature-item">
+            <h3>🚀 Fácil de Usar</h3>
+            <p>Interface intuitiva que não requer treinamento extenso. Seus usuários estarão produtivos em minutos.</p>
+        </div>
+        
+        <div class="feature-item">
+            <h3>🔒 Segurança</h3>
+            <p>Criptografia de ponta a ponta, backups automáticos e conformidade com LGPD e GDPR.</p>
+        </div>
+        
+        <div class="feature-item">
+            <h3>📊 Análise Completa</h3>
+            <p>Dashboards detalhados com métricas em tempo real para melhorar a eficiência do seu time.</p>
+        </div>
+        
+        <div class="feature-item">
+            <h3>🌐 Multiplataforma</h3>
+            <p>Acesse de qualquer lugar: Web, Desktop ou Mobile. Sincronização automática em todos os dispositivos.</p>
+        </div>
+        
+        <div class="feature-item">
+            <h3>💬 Suporte Dedicado</h3>
+            <p>Equipe de suporte especializada pronta para ajudar. Resposta rápida a suas dúvidas.</p>
+        </div>
+        
+        <div class="feature-item">
+            <h3>⚡ Performance</h3>
+            <p>Infraestrutura em nuvem garantindo velocidade e disponibilidade 99.9% do tempo.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Login Section -->
+<div class="login-section">
+    <h2>Já é cliente?</h2>
+    <p>Acesse sua conta e comece a gerenciar seus chamados agora mesmo</p>
+    <a href="/Login/Login" class="login-button">Fazer Login</a>
+</div>
+

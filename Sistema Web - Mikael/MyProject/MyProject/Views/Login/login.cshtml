@@ -1,0 +1,38 @@
+﻿@model MyProject.Views.Login.loginModel
+@{
+	ViewData["Title"] = "Login";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="~/css/Login.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<bodyLogin>
+
+	<div class="wrepper">
+        <h2 class="text-center mb-4">Login</h2>
+		<form>
+			<div class="mb-3">
+				<label for="exampleInputEmail1" class="form-label">E-mail</label>
+				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+				<div id="emailHelp" class="form-text">Coloque seu e-mail que foi cadastrado.</div>
+			</div>
+			<div class="mb-3">
+				<label for="exampleInputPassword1" class="form-label">Senha</label>
+				<input type="password" class="form-control" id="exampleInputPassword">
+				<div id="emailHelp" class="form-text">Coloque sua senha.</div>
+			</div>
+			<button type="submit" class="btn btn-primary" asp-controller="Home" asp-action="index">Login</button>
+		</form>
+	</div>
+
+</bodyLogin>
+
+</html>

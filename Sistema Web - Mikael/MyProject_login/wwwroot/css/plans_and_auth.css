@@ -1,0 +1,902 @@
+/* ==========================================================================
+   Estilos para a Página de Planos (Home/Index)
+   ========================================================================== */
+
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.company-info {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.company-info h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.company-info p {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.plans-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.plan-card {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.plan-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.plan-card.featured {
+    border-color: #667eea;
+    border-width: 3px;
+    transform: scale(1.05);
+}
+
+.plan-card.featured::before {
+    content: "MAIS POPULAR";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #667eea;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.plan-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.plan-price {
+    font-size: 2.5rem;
+    color: #667eea;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plan-price-period {
+    color: #999;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.plan-features li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #666;
+}
+
+.plan-features li:last-child {
+    border-bottom: none;
+}
+
+.plan-features li::before {
+    content: "✓ ";
+    color: #667eea;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.plan-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.plan-button-primary {
+    background-color: #667eea;
+    color: white;
+}
+
+.plan-button-primary:hover {
+    background-color: #5568d3;
+    text-decoration: none;
+    color: white;
+}
+
+.plan-button-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 2px solid #667eea;
+}
+
+.plan-button-secondary:hover {
+    background-color: #667eea;
+    color: white;
+    text-decoration: none;
+}
+
+.features-section {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.features-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.feature-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h3 {
+    color: #667eea;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.feature-item p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.login-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.login-section h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.login-section p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.login-button {
+    background-color: white;
+    color: #667eea;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #667eea;
+}
+
+/* ==========================================================================
+   Estilos para a Página de Login (Login/login)
+   ========================================================================== */
+
+.login-page-body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-header h1 {
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login-header p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.error-message {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #5568d3;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.login-footer p {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.login-footer a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   Estilos para a Página de Cadastro (Usuario/Criar)
+   ========================================================================== */
+
+.cadastro-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #667eea;
+}
+
+.cadastro-header h1 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cadastro-header p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.plan-badge {
+    display: inline-block;
+    background: #667eea;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.3);
+}
+
+.form-text {
+    font-size: 0.85rem;
+    color: #999;
+    margin-top: 5px;
+}
+
+.text-danger {
+    color: #dc3545;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    display: block;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #667eea;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #5568d3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.info-box {
+    background: #e7f3ff;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #667eea;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.info-box strong {
+    color: #333;
+}
+
+/* ==========================================================================
+   Estilos para a Página de Confirmação (Usuario/ConfirmacaoCompra)
+   ========================================================================== */
+
+.confirmation-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.success-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #28a745;
+}
+
+.success-icon {
+    font-size: 3rem;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.success-header h1 {
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.success-header p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.plan-details {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.plan-details h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-label {
+    font-weight: bold;
+    color: #666;
+}
+
+.detail-value {
+    color: #333;
+}
+
+.plan-name {
+    color: #667eea;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.plan-price {
+    color: #28a745;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.next-steps {
+    background: #e7f3ff;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    margin-bottom: 30px;
+}
+
+.next-steps h3 {
+    color: #667eea;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.next-steps ol {
+    margin-bottom: 0;
+    color: #666;
+}
+
+.next-steps li {
+    margin-bottom: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-primary-custom {
+    background-color: #667eea;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.btn-primary-custom:hover {
+    background-color: #5568d3;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-secondary-custom {
+    background-color: #6c757d;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.btn-secondary-custom:hover {
+    background-color: #5a6268;
+    text-decoration: none;
+    color: white;
+}
+
+.features-list {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border: 1px solid #e0e0e0;
+}
+
+.features-list h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.features-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features-list li {
+    padding: 8px 0;
+    color: #666;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.features-list li:last-child {
+    border-bottom: none;
+}
+
+.features-list li::before {
+    content: "✓ ";
+    color: #28a745;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* ==========================================================================
+   Estilos para a Página de Gerenciamento de Usuários (Usuario/Index)
+   ========================================================================== */
+
+.usuarios-container {
+    padding: 20px 0;
+}
+
+.header-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.header-section h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.user-info-item {
+    margin-bottom: 8px;
+}
+
+.user-info-label {
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.header-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn-custom {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary-custom {
+    background-color: white;
+    color: #667eea;
+}
+
+.btn-primary-custom:hover {
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #667eea;
+}
+
+.btn-secondary-custom {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-secondary-custom:hover {
+    background-color: #c82333;
+    text-decoration: none;
+    color: white;
+}
+
+.content-section {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.content-header h2 {
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+}
+
+.btn-add {
+    background-color: #667eea;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add:hover {
+    background-color: #5568d3;
+    text-decoration: none;
+    color: white;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.table th {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+}
+
+.table td {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.btn-action {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn-edit {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.btn-edit:hover {
+    background-color: #ffb300;
+    text-decoration: none;
+    color: #333;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+    text-decoration: none;
+    color: white;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.empty-state-icon {
+    font-size: 4rem;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.empty-state h3 {
+    color: #666;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.empty-state p {
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background: #e7f3ff;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #667eea;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.info-box strong {
+    color: #333;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.badge-admin {
+    background-color: #667eea;
+    color: white;
+}
+
+.badge-user {
+    background-color: #6c757d;
+    color: white;
+}

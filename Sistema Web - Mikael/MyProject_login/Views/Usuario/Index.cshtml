@@ -1,0 +1,111 @@
+@model List<MyProject.Models.UsuarioModel>
+
+@{
+    ViewData["Title"] = "Gerenciamento de Usuários";
+    var usuarioLogadoNome = Context.Session.GetString("UsuarioLogadoNome");
+    var usuarioLogadoId = Context.Session.GetInt32("UsuarioLogadoId");
+    var usuarioLogadoIsAdmin = Context.Session.GetString("UsuarioLogadoIsAdmin") == "True";
+}
+
+<link rel="stylesheet" href="~/css/plans_and_auth.css" asp-append-version="true" />
+
+<div class="usuarios-container">
+    <!-- Header Section -->
+    <div class="header-section">
+        <h1>Gerenciamento de Usuários</h1>
+        <p>Gerencie os usuários da sua empresa e controle o acesso ao sistema</p>
+
+        @if (usuarioLogadoId.HasValue)
+        {
+            <div class="user-info">
+                <div class="user-info-item">
+                    <span class="user-info-label">Usuário Logado:</span>
+                    <span>@usuarioLogadoNome <span class="badge badge-admin">Administrador</span></span>
+                </div>
+            </div>
+        }
+
+        <div class="header-actions">
+            @if (usuarioLogadoIsAdmin)
+            {
+                <a href="@Url.Action("Criar", "Usuario")" class="btn-custom btn-primary-custom">
+                    ➕ Adicionar Novo Usuário
+                </a>
+            }
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content-section">
+
+
+        @if (Model != null && Model.Any())
+        {
+            <div class="content-header">
+                <h2>Usuários Cadastrados (@Model.Count)</h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>E-mail</th>
+                            <th>Telefone</th>
+                            <th>Tipo</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var usuario in Model)
+                        {
+                            <tr>
+                                <td>#@usuario.Id</td>
+                                <td>
+                                    <strong>@usuario.Nome</strong>
+                                    @if (usuario.Id == usuarioLogadoId)
+                                    {
+                                        <span class="badge badge-admin">Você</span>
+                                    }
+                                </td>
+                                <td>@usuario.Email</td>
+                                <td>@usuario.Contato</td>
+                                <td>
+                                    @if (usuario.IsAdmin)
+                                    {
+                                        <span class="badge badge-admin">Administrador</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge badge-user">Usuário</span>
+                                    }
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("Editar", "Usuario", new { id = usuario.Id })" class="btn-action btn-edit">
+                                        ✏️ Editar
+                                    </a>
+                                    <a href="@Url.Action("Apagar", "Usuario", new { id = usuario.Id })" class="btn-action btn-delete">
+                                        🗑️ Apagar
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="empty-state">
+                <div class="empty-state-icon">👥</div>
+                <h3>Nenhum usuário cadastrado</h3>
+                <p>Comece a adicionar usuários para sua empresa.</p>
+                <a href="@Url.Action("Criar", "Usuario")" class="btn-add">
+                    ➕ Cadastrar Primeiro Usuário
+                </a>
+            </div>
+        }
+    </div>
+</div>
+
