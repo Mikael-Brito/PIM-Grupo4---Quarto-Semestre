@@ -667,11 +667,11 @@
 }
 
 .header-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #5568d3;
     color: white;
-    padding: 30px;
+    padding: 10px;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .header-section h1 {
@@ -741,8 +741,8 @@
 }
 
 .content-section {
-    background: white;
-    padding: 30px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }

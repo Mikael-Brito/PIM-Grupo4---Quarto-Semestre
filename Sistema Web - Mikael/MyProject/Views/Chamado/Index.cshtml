@@ -1,77 +1,133 @@
-@model IList<MyProject.Models.ChamadoModel>
+﻿@model List<MyProject.Models.ChamadoModel>
 
 @{
-    ViewData["Title"] = "Lista de Chamados";
+    ViewData["Title"] = "Gerenciamento de Chamados";
+    var usuarioLogadoNome = Context.Session.GetString("UsuarioLogadoNome");
+    var usuarioLogadoId = Context.Session.GetInt32("UsuarioLogadoId");
+    var usuarioLogadoIsAdmin = Context.Session.GetString("UsuarioLogadoIsAdmin") == "True";
+
+    // Filtra os chamados conforme o tipo de usuário
+    var chamadosFiltrados = usuarioLogadoIsAdmin
+        ? Model
+        : Model.Where(c => c.UsuarioId == usuarioLogadoId).ToList();
 }
 
-<bodyChamado>
-<p>
-    <a asp-controller="Chamado" asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model[0].Titulo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model[0].Categoria)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model[0].Prioridade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model[0].Descricao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model[0].Status)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model[0].DataAbertura)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model[0].DataFechamento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model[0].Usuario)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Titulo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Categoria.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Prioridade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataAbertura)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataFechamento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Usuario.Nome)
-            </td>
-            <td>
-                <a asp-controller="Chamado" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                <a asp-controller="Chamado" asp-action="Details" asp-route-id="@item.Id">Details</a>
-                <a asp-controller="Chamado" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
-</bodyChamado>
+<link rel="stylesheet" href="~/css/plans_and_auth.css" asp-append-version="true" />
+
+<div class="usuarios-container">
+    <!-- Header Section -->
+    <div class="header-section">
+        <h1>Gerenciamento de Chamados</h1>
+
+        @if (usuarioLogadoId.HasValue)
+        {
+            <div class="user-info">
+                <div class="user-info-item">
+                    <span class="user-info-label">Usuário Logado:</span>
+                    <span>
+                        @usuarioLogadoNome
+                        @if (usuarioLogadoIsAdmin)
+                        {
+                            <span class="badge badge-admin">Administrador</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-user">Usuário</span>
+                        }
+                    </span>
+                </div>
+            </div>
+        }
+
+        <div class="header-actions">
+            <a href="@Url.Action("Create", "Chamado")" class="btn-custom btn-primary-custom">
+                ➕ Abrir Novo Chamado
+            </a>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content-section">
+        @if (chamadosFiltrados != null && chamadosFiltrados.Any())
+        {
+            <div class="content-header">
+                <h2>Chamados Registrados (@chamadosFiltrados.Count)</h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered gap-2">
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Categoria</th>
+                            <th>Prioridade</th>
+                            <th>Status</th>
+                            <th>Data Abertura</th>
+                            <th>Data Fechamento</th>
+                            <th>Usuário De Abertura</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var chamado in chamadosFiltrados)
+                        {
+                            <tr>
+                                <td><strong>@chamado.Titulo</strong></td>
+                                <td>@chamado.Categoria?.Nome</td>
+                                <td>@chamado.Prioridade</td>
+                                <td>
+                                    @if (chamado.Status == "Aberto")
+                                    {
+                                        <span class="badge badge-user">Aberto</span>
+                                    }
+                                    else if (chamado.Status == "Em Andamento")
+                                    {
+                                        <span class="badge badge-admin">Em Andamento</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge badge-completed">Fechado</span>
+                                    }
+                                </td>
+                                <td>@chamado.DataAbertura.ToString("dd/MM/yyyy")</td>
+                                <td>@chamado.DataFechamento?.ToString("dd/MM/yyyy")</td>
+                                <td>@chamado.Usuario?.Nome</td>
+                                <td class="btn-group d-flex justify-content-center" role="group">
+                                    <a asp-controller="Chamado" asp-action="Editar" asp-route-id="@chamado.Id" class="btn btn-action btn-edit rounded-2">
+                                        ✏️ Editar
+                                    </a>
+                                    <a asp-controller="Chamado" asp-action="Details" asp-route-id="@chamado.Id" class="btn btn-action btn-info rounded-2">
+                                        🔍 Detalhes
+                                    </a>
+                                    <a asp-controller="Chamado" asp-action="Delete" asp-route-id="@chamado.Id" class="btn btn-action btn-delete rounded-2">
+                                        🗑️ Excluir
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="empty-state">
+                <div class="empty-state-icon">📋</div>
+                <h3>Nenhum chamado encontrado</h3>
+                <p>
+                    @if (usuarioLogadoIsAdmin)
+                    {
+                        @:Não há chamados registrados no sistema.
+                    }
+                    else
+                    {
+                        @:Você ainda não abriu nenhum chamado.
+                    }
+                </p>
+                <a href="@Url.Action("Create", "Chamado")" class="btn-add">
+                    ➕ Abrir Novo Chamado
+                </a>
+            </div>
+        }
+    </div>
+</div>

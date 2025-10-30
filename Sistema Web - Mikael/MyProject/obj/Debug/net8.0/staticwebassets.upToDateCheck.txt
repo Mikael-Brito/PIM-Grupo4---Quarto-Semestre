@@ -5,6 +5,7 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Img\chatbot_placeholder.png
 wwwroot\Img\Icon Blue.ico
+wwwroot\Img\Icon Blue.jpg
 wwwroot\Img\Icon Dark.ico
 wwwroot\Img\Icon-Dark.ico
 wwwroot\Img\img.jpg

@@ -13,14 +13,24 @@
     <!-- Header Section -->
     <div class="header-section">
         <h1>Gerenciamento de Usuários</h1>
-        <p>Gerencie os usuários da sua empresa e controle o acesso ao sistema</p>
 
         @if (usuarioLogadoId.HasValue)
         {
             <div class="user-info">
                 <div class="user-info-item">
                     <span class="user-info-label">Usuário Logado:</span>
-                    <span>@usuarioLogadoNome <span class="badge badge-admin">Administrador</span></span>
+                    <span>
+                        @usuarioLogadoNome
+                        @if (usuarioLogadoIsAdmin)
+                        {
+                            <span class="badge badge-admin">Administrador</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-user">Usuário</span>
+                        }
+
+                    </span>
                 </div>
             </div>
         }
@@ -28,7 +38,7 @@
         <div class="header-actions">
             @if (usuarioLogadoIsAdmin)
             {
-                <a href="@Url.Action("Criar", "Usuario")" class="btn-custom btn-primary-custom">
+                <a href="@Url.Action("CriarUsuarioNormal", "Usuario")" class="btn-custom btn-primary-custom">
                     ➕ Adicionar Novo Usuário
                 </a>
             }
@@ -37,8 +47,6 @@
 
     <!-- Content Section -->
     <div class="content-section">
-
-
         @if (Model != null && Model.Any())
         {
             <div class="content-header">
@@ -46,7 +54,7 @@
             </div>
 
             <div class="table-responsive">
-                <table class="table">
+                <table class="table table-bordered">
                     <thead>
                         <tr>
                             <th>ID</th>
@@ -81,11 +89,11 @@
                                         <span class="badge badge-user">Usuário</span>
                                     }
                                 </td>
-                                <td>
-                                    <a href="@Url.Action("Editar", "Usuario", new { id = usuario.Id })" class="btn-action btn-edit">
+                                <td >
+                                    <a asp-controller="Usuario" asp-action="Editar" asp-route-id="#@usuario.Id" class="btn-action btn-edit rounded-2">
                                         ✏️ Editar
                                     </a>
-                                    <a href="@Url.Action("Apagar", "Usuario", new { id = usuario.Id })" class="btn-action btn-delete">
+                                    <a asp-controller="Usuario" asp-action="Apagar" asp-route-id="#@usuario.Id" class="btn-action btn-delete rounded-2">
                                         🗑️ Apagar
                                     </a>
                                 </td>
@@ -101,7 +109,7 @@
                 <div class="empty-state-icon">👥</div>
                 <h3>Nenhum usuário cadastrado</h3>
                 <p>Comece a adicionar usuários para sua empresa.</p>
-                <a href="@Url.Action("Criar", "Usuario")" class="btn-add">
+                <a href="@Url.Action("CriarAdmin", "Usuario")" class="btn-add">
                     ➕ Cadastrar Primeiro Usuário
                 </a>
             </div>

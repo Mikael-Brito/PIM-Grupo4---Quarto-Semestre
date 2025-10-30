@@ -17,10 +17,30 @@
             <h5>Dados do Usuário</h5>
         </div>
         <div class="card-body">
-            <p><strong>ID:</strong> @Model.Id</p>
-            <p><strong>Nome:</strong> @Model.Nome</p>
-            <p><strong>E-mail:</strong> @Model.Email</p>
-            <p><strong>Contato:</strong> @Model.Contato</p>
+
+
+            <table class="table table-bordered table-striped">
+                <tbody>
+                    <tr>
+                        <td><strong>ID</strong></td>
+                        <td>@Model.Id</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nome</strong></td>
+                        <td>@Model.Nome</td>
+                    </tr>
+                    <tr>
+                        <td><strong>E-mail</strong></td>
+                        <td>@Model.Email</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Contato</strong></td>
+                        <td>@Model.Contato</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
         </div>
     </div>
 
@@ -34,7 +54,7 @@
             <button type="submit" class="btn btn-danger btn-lg">
                 <i class="fas fa-trash"></i> Sim, Excluir
             </button>
-        </form>
+        </form>|
         
         <a class="btn btn-secondary btn-lg" asp-controller="Usuario" asp-action="Index">
             <i class="fas fa-arrow-left"></i> Cancelar

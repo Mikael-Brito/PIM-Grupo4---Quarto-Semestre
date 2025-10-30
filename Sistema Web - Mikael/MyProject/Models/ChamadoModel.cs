@@ -16,12 +16,11 @@ namespace MyProject.Models
 
         public PrioridadeChamado Prioridade { get; set; } = PrioridadeChamado.Media;
 
-        public required string Status { get; set; } = string.Empty;
+        public required string Status { get; set; } = "Aberto";
 
         public DateTime DataAbertura { get; set; } = DateTime.Now;
 
         public DateTime? DataFechamento { get; set; } = null;
-
 
         public int UsuarioId { get; set; }
 

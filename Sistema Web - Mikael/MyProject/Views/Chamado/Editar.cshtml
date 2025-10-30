@@ -1,26 +1,27 @@
-﻿@model MyProject.Models.ChamadoModel
+@model MyProject.Models.ChamadoModel
 
 @{
-    ViewData["Title"] = "Criar Chamado";
+    ViewData["Title"] = "Editar Chamado";
 }
 
-<link rel="stylesheet" href="~/css/plans_and_auth.css" asp-append-version="true" />
-
 <div class="container">
-    <h1 class="display-4 mb-4">Criar Novo Chamado</h1>
+    <h1 class="display-4 mb-4">Editar Chamado #@Model.Id</h1>
 
     <div class="row">
         <div class="col-md-8">
-            <form asp-action="Create" method="post">
+            <form asp-action="Editar" method="post">
+                <input asp-for="Id" type="hidden" />
+                <input asp-for="DataAbertura" type="hidden" />
+
                 <div class="mb-3">
                     <label asp-for="Titulo" class="form-label">Título</label>
-                    <input asp-for="Titulo" class="form-control" placeholder="Digite o título do chamado">
+                    <input asp-for="Titulo" class="form-control">
                     <span asp-validation-for="Titulo" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
                     <label asp-for="Descricao" class="form-label">Descrição</label>
-                    <textarea asp-for="Descricao" class="form-control" rows="4" placeholder="Descreva detalhadamente o problema"></textarea>
+                    <textarea asp-for="Descricao" class="form-control" rows="4"></textarea>
                     <span asp-validation-for="Descricao" class="text-danger"></span>
                 </div>
 
@@ -32,7 +33,9 @@
                         {
                             @foreach (var categoria in (List<MyProject.Models.CategoriaModel>)ViewBag.Categorias)
                             {
-                                <option value="@categoria.Id">@categoria.Nome</option>
+                                <option value="@categoria.Id" selected="@(categoria.Id == Model.CategoriaId)">
+                                    @categoria.Nome
+                                </option>
                             }
                         }
                     </select>
@@ -45,26 +48,32 @@
                     <span asp-validation-for="Prioridade" class="text-danger"></span>
                 </div>
 
-                <!--
-                 <div class="mb-3">
+                <div class="mb-3">
                     <label asp-for="Status" class="form-label">Status</label>
                     <select asp-for="Status" class="form-select">
-                        <option value="Aberto">Aberto</option>
-                        <option value="Em Andamento">Em Andamento</option>
                         <option value="Fechado">Fechado</option>
-                        <option value="Fechado">Cancelado</option>
+                        <option value="Cancelado">Cancelado</option>
                     </select>
                     <span asp-validation-for="Status" class="text-danger"></span>
                 </div>
-                -->
 
-                <!-- Campo oculto (caso queira ver o valor no POST, mas não mostrar ao usuário) -->
-                <input type="hidden" asp-for="UsuarioId" value="@User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value" />
+                <div class="mb-3">
+                    <label class="form-label">Data de Abertura</label>
+                    <input type="text" class="form-control" value="@Model.DataAbertura.ToString("dd/MM/yyyy HH:mm")" readonly>
+                </div>
+
+                @if (Model.DataFechamento.HasValue)
+                {
+                    <div class="mb-3">
+                        <label class="form-label">Data de Fechamento</label>
+                        <input type="text" class="form-control" value="@Model.DataFechamento.Value.ToString("dd/MM/yyyy HH:mm")" readonly>
+                    </div>
+                }
 
                 <div class="mb-3">
                     <button type="submit" class="btn btn-primary">
-                        <i class="fas fa-save"></i> Criar Chamado
-                    </button>
+                        <i class="fas fa-save"></i> Salvar Alterações
+                    </button> |
                     <a asp-controller="Chamado" asp-action="Index" class="btn btn-secondary">
                         <i class="fas fa-arrow-left"></i> Voltar
                     </a>

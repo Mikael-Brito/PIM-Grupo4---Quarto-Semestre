@@ -12,8 +12,8 @@ namespace MyProject.Controllers
         {
             return View();
         }
-        public IActionResult ChatBo()
-        {
+        public IActionResult SobreNos()
+        { 
             return View();
         }
 

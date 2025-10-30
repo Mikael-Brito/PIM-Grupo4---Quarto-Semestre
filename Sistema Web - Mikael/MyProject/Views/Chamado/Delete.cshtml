@@ -1,67 +1,93 @@
 ﻿@model MyProject.Models.ChamadoModel
 
 @{
-    Layout = "_Layout";
+    ViewData["Title"] = "Confirmar Exclusão de Chamado";
 }
 
-<!DOCTYPE html>
+<div class="container">
+    <h1 class="display-4 mb-4 text-danger">Confirmar Exclusão</h1>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Delete</title>
-</head>
-<body>
+    <div class="alert alert-warning" role="alert">
+        <h4 class="alert-heading">⚠️ Atenção!</h4>
+        <p>Você está prestes a excluir o chamado abaixo. Esta ação não pode ser desfeita.</p>
+    </div>
 
-<h1 class="display-4 mb-4">Excluir Chamado</h1>
-<h3>Tem certeza de que deseja excluir este chamado?</h3>
-<div>
-    <h4>ChamadoModel</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Titulo)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Titulo)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Descricao)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Status)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Status)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.DataAbertura)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.DataAbertura)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.DataFechamento)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.DataFechamento)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Usuario)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Usuario.Nome)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete" method="post">
-        <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-controller="Chamado" asp-action="Index">Voltar para a Lista</a>
-    </form>
+    <div class="card">
+        <div class="card-header">
+            <h5>Dados do Chamado</h5>
+        </div>
+        <div class="card-body">
+
+            <table class="table table-bordered table-striped">
+                <tbody>
+                    <tr>
+                        <td><strong>ID</strong></td>
+                        <td>@Model.Id</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Título</strong></td>
+                        <td>@Model.Titulo</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Descrição</strong></td>
+                        <td>@Model.Descricao</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Categoria</strong></td>
+                        <td>@Model.Categoria?.Nome</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Prioridade</strong></td>
+                        <td>@Model.Prioridade</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Status</strong></td>
+                        <td>
+                            @if (Model.Status == "Aberto")
+                            {
+                                <span class="badge badge-user">Aberto</span>
+                            }
+                            else if (Model.Status == "Em Andamento")
+                            {
+                                <span class="badge badge-admin">Em Andamento</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-completed">Fechado</span>
+                            }
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Data de Abertura</strong></td>
+                        <td>@Model.DataAbertura.ToString("dd/MM/yyyy")</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Data de Fechamento</strong></td>
+                        <td>@Model.DataFechamento?.ToString("dd/MM/yyyy")</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Usuário Responsável</strong></td>
+                        <td>@Model.Usuario?.Nome</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <h5 class="text-danger">Realmente deseja excluir o chamado "@Model.Titulo"?</h5>
+    </div>
+
+    <div class="mt-4">
+        <form asp-action="Delete" method="post" style="display: inline;">
+            <input type="hidden" name="Id" value="@Model.Id" />
+            <button type="submit" class="btn btn-danger btn-lg">
+               Sim, Excluir
+            </button>
+        </form>|
+
+        <a class="btn btn-secondary btn-lg" asp-controller="Chamado" asp-action="Index">
+            Cancelar
+        </a>
+    </div>
 </div>
-</body>
-</html>

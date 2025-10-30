@@ -1,46 +1,24 @@
 @model MyProject.Models.UsuarioModel
 
 @{
-    ViewData["Title"] = "Cadastro de Usuário";
-    var plano = ViewBag.Plano;
+    ViewData["Title"] = "Cadastro de Administrador";
 }
 
 
 <div class="cadastro-container">
     <!-- Header -->
     <div class="cadastro-header">
-        <h1>Cadastro de Usuário</h1>
-        <p>Crie sua conta para acessar o sistema HelpDesk</p>
-        @if (!string.IsNullOrEmpty(plano))
-        {
-            <div class="plan-badge">
-                @if (plano == "plano1")
-                {
-                    <text>Plano Web Básico - R$ 199,00/mês</text>
-                }
-                else if (plano == "plano2")
-                {
-                    <text>Plano Web + Desktop - R$ 599,00/mês</text>
-                }
-                else if (plano == "plano3")
-                {
-                    <text>Plano Completo - R$ 999,00/mês</text>
-                }
-            </div>
-        }
+        <h1>Cadastro de Administrador</h1>
+        <p>Preencha os dados para criar a conta de Administrador.</p>
     </div>
 
     <!-- Info Box -->
-    @if (!string.IsNullOrEmpty(plano))
-    {
-        <div class="info-box">
-            <strong>ℹ️ Importante:</strong> Este é o usuário administrador da sua conta. Após criar sua conta, você poderá adicionar mais usuários da sua empresa.
-        </div>
-    }
+    <div class="info-box">
+        <strong>ℹ️ Importante:</strong> Este será o usuário administrador principal da sua conta.
+    </div>
 
     <!-- Form -->
-    <form asp-action="Criar" method="post">
-        <input type="hidden" name="plano" value="@plano" />
+    <form asp-action="CriarAdmin" method="post">
 
         <!-- Nome -->
         <div class="form-group">
@@ -85,7 +63,7 @@
         <!-- Buttons -->
         <div class="form-buttons">
             <button type="submit" class="btn btn-primary">
-                Criar Conta
+                Criar Administrador
             </button>
             <a href="@Url.Action("Index", "Home")" class="btn btn-secondary text-decoration-none d-flex align-items-center justify-content-center">
                 Cancelar
