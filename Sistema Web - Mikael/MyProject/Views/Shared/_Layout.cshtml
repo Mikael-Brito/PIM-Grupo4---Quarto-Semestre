@@ -16,8 +16,10 @@
     var usuarioLogadoNome = Context.Session.GetString("UsuarioLogadoNome");
 }
 
+
 @if (usuarioLogadoId.HasValue)
-{
+{   
+        // Se estiver logado, exibe o menu completo
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-light border-bottom box-shadow">
                 <div class="container">

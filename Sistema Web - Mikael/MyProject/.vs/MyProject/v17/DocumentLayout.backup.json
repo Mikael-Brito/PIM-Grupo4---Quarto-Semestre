@@ -1,61 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\controllers\\chatbotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:controllers\\chatbotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\models\\perguntamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:models\\perguntamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\views\\chatbot\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\views\\chatbot\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\chatbot\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\views\\home\\sobrenos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\home\\sobrenos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\views\\chamado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\chamado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\views\\usuario\\apagar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\usuario\\apagar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\views\\chamado\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\views\\chamado\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\chamado\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\downloads\\myproject_login\\myproject_login\\wwwroot\\css\\plans_and_auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\controllers\\chatbotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:controllers\\chatbotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\views\\chamado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\chamado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\models\\perguntamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:models\\perguntamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\views\\home\\sobrenos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\home\\sobrenos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\views\\usuario\\apagar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\usuario\\apagar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\wwwroot\\css\\plans_and_auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:wwwroot\\css\\plans_and_auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -66,40 +70,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Startup.cs",
-              "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Startup.cs",
-              "RelativeToolTip": "Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T03:52:33.934Z",
+              "WhenOpened": "2025-11-01T12:32:52.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Chatbot\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Chatbot\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Chatbot\\Index.cshtml",
-              "RelativeToolTip": "Views\\Chatbot\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T03:27:41.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ChatbotController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Controllers\\ChatbotController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Controllers\\ChatbotController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChatbotController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Controllers\\ChatbotController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Controllers\\ChatbotController.cs",
               "RelativeToolTip": "Controllers\\ChatbotController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -108,49 +100,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PerguntaModel.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Models\\PerguntaModel.cs",
-              "RelativeDocumentMoniker": "Models\\PerguntaModel.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Models\\PerguntaModel.cs",
-              "RelativeToolTip": "Models\\PerguntaModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T03:24:54.299Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T03:16:27.373Z"
+              "WhenOpened": "2025-10-29T03:16:27.373Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SobreNos.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Home\\SobreNos.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\SobreNos.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Home\\SobreNos.cshtml",
-              "RelativeToolTip": "Views\\Home\\SobreNos.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T03:07:02.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-29T02:45:03.946Z",
               "EditorCaption": ""
@@ -159,21 +128,98 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-29T03:51:24.922Z"
+              "WhenOpened": "2025-10-29T03:51:24.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Chamado\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Chamado\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Chamado\\Index.cshtml",
+              "RelativeToolTip": "Views\\Chamado\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T02:22:04.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Chatbot\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Chatbot\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Chatbot\\Index.cshtml",
+              "RelativeToolTip": "Views\\Chatbot\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T03:27:41.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T23:07:27.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Chamado\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Chamado\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Chamado\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Chamado\\Delete.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T02:28:09.301Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "SobreNos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Home\\SobreNos.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SobreNos.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Home\\SobreNos.cshtml",
+              "RelativeToolTip": "Views\\Home\\SobreNos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T03:07:02.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PerguntaModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Models\\PerguntaModel.cs",
+              "RelativeDocumentMoniker": "Models\\PerguntaModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Models\\PerguntaModel.cs",
+              "RelativeToolTip": "Models\\PerguntaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T03:24:54.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Apagar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Usuario\\Apagar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Usuario\\Apagar.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuario\\Apagar.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Usuario\\Apagar.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Usuario\\Apagar.cshtml",
               "RelativeToolTip": "Views\\Usuario\\Apagar.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -181,11 +227,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Usuario\\Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Usuario\\Editar.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuario\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Usuario\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Usuario\\Editar.cshtml",
               "RelativeToolTip": "Views\\Usuario\\Editar.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -193,35 +239,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Chamado\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Chamado\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Chamado\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Chamado\\Delete.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T02:28:09.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Chamado\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Chamado\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Chamado\\Index.cshtml",
-              "RelativeToolTip": "Views\\Chamado\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T02:22:04.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Usuario\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Usuario\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuario\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Usuario\\Index.cshtml",
               "RelativeToolTip": "Views\\Usuario\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -229,11 +251,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "plans_and_auth.css",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\wwwroot\\css\\plans_and_auth.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\wwwroot\\css\\plans_and_auth.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\plans_and_auth.css",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\MyProject_login\\MyProject_login\\wwwroot\\css\\plans_and_auth.css",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\wwwroot\\css\\plans_and_auth.css",
               "RelativeToolTip": "wwwroot\\css\\plans_and_auth.css",
               "ViewState": "AgIAANoCAAAAAAAAAAAcwPECAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
