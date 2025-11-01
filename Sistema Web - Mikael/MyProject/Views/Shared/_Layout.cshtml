@@ -46,7 +46,7 @@
                             <a class="nav-link" asp-area="" asp-controller="Chamado" asp-action="Index">Chamados Abertos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Chatbot" asp-action="Index">Chatbot</a>
+                            <a class="nav-link" asp-area="" asp-controller="Chat" asp-action="Index">Chatbot</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -97,7 +97,7 @@ else
     </header>
 }
 
-    <div class="container text-dark pt-2">
+    <div class="container text-dark pt-2 overflow-auto" style="max-height: 84vh;">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

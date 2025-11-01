@@ -1,63 +1,29 @@
-//<!--
-//using Microsoft.AspNetCore.Mvc;
-//using MyProject.Data;
-//using MyProject.Models;
-//using OpenAI;
-//using OpenAI.Chat;
-//using OpenAI.Models;
-//using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using MyProject.Models;
 
-//namespace MyProject.Controllers
-//{
-//    public class ChatController : Controller
-//    {
-//        private readonly AppDbContext _context;
-//        private readonly OpenAIClient _openAIClient;
+namespace MyProject.Controllers
+{
+    public class ChatController : Controller
+    {
+        [HttpGet]
+        public IActionResult Index()
+        {
+            // Apenas exibe a view vazia
+            return View(new PerguntaModel());
+        }
 
-//        public ChatController(AppDbContext context, OpenAIClient openAIClient)
-//        {
-//            _context = context;
-//            _openAIClient = openAIClient;
-//        }
+        [HttpPost]
+        public IActionResult Index(PerguntaModel model)
+        {
+            if (!string.IsNullOrWhiteSpace(model.Pergunta))
+            {
+                // Apenas uma resposta padrão (sem IA e sem banco)
+                model.Resposta = "Função de chat desativada.";
+                model.Data = DateTime.Now;
+                model.UsuarioId = User?.Identity?.Name ?? "Anônimo";
+            }
 
-//        [HttpGet]
-//        public IActionResult Index()
-//        {
-//            return View(new PerguntaModel());
-//        }
-
-//        [HttpPost]
-//        public async Task<IActionResult> Index(PerguntaModel model)
-//        {
-//            if (!string.IsNullOrWhiteSpace(model.Pergunta))
-//            {
-//                model.Resposta = await EnviarParaIA(model.Pergunta);
-//                model.Data = DateTime.Now;
-//                model.UsuarioId = User?.Identity?.Name ?? "Anônimo";
-
-//                // Salvar no banco (opcional)
-//                // _context.Perguntas.Add(model);
-//                // await _context.SaveChangesAsync();
-//            }
-
-//            return View(model);
-//        }
-
-//        private async Task<string> EnviarParaIA(string pergunta)
-//        {
-//            var chatRequest = new ChatCompletionCreateRequest
-//            {
-//                Model = Models.Gpt_3_5_Turbo, // ou Models.Gpt_4 se disponível
-//                Messages =
-//                {
-//                    new ChatMessage("user", pergunta)
-//                }
-//            };
-
-//            var chatResponse = await _openAIClient.ChatCompletions.CreateAsync(chatRequest);
-
-//            return chatResponse.Choices[0].Message.Content;
-//        }
-//    }
-//}
-//-->
+            return View(model);
+        }
+    }
+}

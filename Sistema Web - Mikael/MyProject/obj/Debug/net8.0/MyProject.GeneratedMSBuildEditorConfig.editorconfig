@@ -68,12 +68,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdEJvdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/PIM-Grupo4---Quarto-Semestre/Sistema Web - Mikael/MyProject/Views/Chatbot/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdGJvdFxJbmRleC5jc2h0bWw=
+[C:/Users/Usuario/source/repos/PIM-Grupo4---Quarto-Semestre/Sistema Web - Mikael/MyProject/Views/Chat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/PIM-Grupo4---Quarto-Semestre/Sistema Web - Mikael/MyProject/Views/Chatbot/Index01.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdGJvdFxJbmRleDAxLmNzaHRtbA==
+[C:/Users/Usuario/source/repos/PIM-Grupo4---Quarto-Semestre/Sistema Web - Mikael/MyProject/Views/Chat/Index01.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxJbmRleDAxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Usuario/source/repos/PIM-Grupo4---Quarto-Semestre/Sistema Web - Mikael/MyProject/Views/Home/Index.cshtml]
@@ -116,8 +116,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmlhckFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/PIM-Grupo4---Quarto-Semestre/Sistema Web - Mikael/MyProject/Views/Usuario/CriarUsuarioNormal.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmlhclVzdWFyaW9Ob3JtYWwuY3NodG1s
+[C:/Users/Usuario/source/repos/PIM-Grupo4---Quarto-Semestre/Sistema Web - Mikael/MyProject/Views/Usuario/CriarUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmlhclVzdWFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Usuario/source/repos/PIM-Grupo4---Quarto-Semestre/Sistema Web - Mikael/MyProject/Views/Usuario/Editar.cshtml]

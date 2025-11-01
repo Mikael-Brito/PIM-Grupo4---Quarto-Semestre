@@ -1,0 +1,10 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "MyProject API",
+    "description": "Documentação automática da API do projeto",
+    "version": "v1"
+  },
+  "paths": { },
+  "components": { }
+}

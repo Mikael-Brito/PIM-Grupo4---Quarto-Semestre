@@ -38,7 +38,7 @@
         <div class="header-actions">
             @if (usuarioLogadoIsAdmin)
             {
-                <a href="@Url.Action("CriarUsuarioNormal", "Usuario")" class="btn-custom btn-primary-custom">
+                <a href="@Url.Action("CriarUsuario", "Usuario")" class="btn-custom btn-primary-custom">
                     ➕ Adicionar Novo Usuário
                 </a>
             }
@@ -89,14 +89,28 @@
                                         <span class="badge badge-user">Usuário</span>
                                     }
                                 </td>
-                                <td >
-                                    <a asp-controller="Usuario" asp-action="Editar" asp-route-id="#@usuario.Id" class="btn-action btn-edit rounded-2">
+                                @usuarioLogadoNome
+                                @if (usuarioLogadoIsAdmin)
+                                {
+                               <td >
+                                    <a asp-controller="Usuario" asp-action="Editar" asp-route-id="#@usuario.Id" class="text-center btn-action btn-edit rounded-2">
                                         ✏️ Editar
                                     </a>
                                     <a asp-controller="Usuario" asp-action="Apagar" asp-route-id="#@usuario.Id" class="btn-action btn-delete rounded-2">
                                         🗑️ Apagar
                                     </a>
                                 </td>
+
+                                }
+                                else
+                                {
+                                    <td>
+                                        <a asp-controller="Usuario" asp-action="Editar" asp-route-id="#@usuario.Id" class="btn-action btn-edit rounded-2">
+                                            ✏️ Editar
+                                        </a>
+                                    </td>
+                                }
+
                             </tr>
                         }
                     </tbody>

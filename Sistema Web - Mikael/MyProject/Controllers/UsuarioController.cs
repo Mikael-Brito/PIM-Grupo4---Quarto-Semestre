@@ -89,7 +89,7 @@ namespace MyProject.Controllers
         // ============================
         // Mantendo [Authorize] e a verificação de Admin para garantir que apenas Admins possam criar usuários
         [Authorize] 
-        public IActionResult CriarUsuarioNormal()
+        public IActionResult CriarUsuario()
         {
             var usuarioIdLogado = HttpContext.Session.GetInt32("UsuarioLogadoId");
             var isAdmin = HttpContext.Session.GetString("UsuarioLogadoIsAdmin") == "True";
@@ -109,7 +109,7 @@ namespace MyProject.Controllers
         // ============================
         [Authorize]
         [HttpPost]
-        public IActionResult CriarUsuarioNormal(UsuarioModel usuario)
+        public IActionResult CriarUsuario(UsuarioModel usuario)
         {
             var usuarioIdLogado = HttpContext.Session.GetInt32("UsuarioLogadoId");
             var isAdmin = HttpContext.Session.GetString("UsuarioLogadoIsAdmin") == "True";
