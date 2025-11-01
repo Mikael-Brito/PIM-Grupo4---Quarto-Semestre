@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D17189B9-4484-17C2-6272-5467C2AAFC79}|MyProject.csproj|c:\\users\\usuario\\source\\repos\\pim-grupo4---quarto-semestre\\sistema web - mikael\\myproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -70,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -95,8 +95,7 @@
               "RelativeToolTip": "Controllers\\ChatbotController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T03:27:01.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T03:27:01.614Z"
             },
             {
               "$type": "Document",
@@ -108,8 +107,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T03:16:27.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T03:16:27.373Z"
             },
             {
               "$type": "Document",
@@ -121,18 +119,17 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T02:45:03.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T02:45:03.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-29T03:51:24.922Z",
               "EditorCaption": ""
@@ -147,12 +144,11 @@
               "RelativeToolTip": "Views\\Chamado\\Index.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T02:22:04.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T02:22:04.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Chatbot\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Chatbot\\Index.cshtml",
@@ -160,12 +156,11 @@
               "RelativeToolTip": "Views\\Chatbot\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T03:27:41.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T03:27:41.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -173,12 +168,11 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T23:07:27.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T23:07:27.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PIM-Grupo4---Quarto-Semestre\\Sistema Web - Mikael\\MyProject\\Views\\Chamado\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Chamado\\Delete.cshtml",
@@ -186,8 +180,7 @@
               "RelativeToolTip": "Views\\Chamado\\Delete.cshtml",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAFQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T02:28:09.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T02:28:09.301Z"
             },
             {
               "$type": "Document",
