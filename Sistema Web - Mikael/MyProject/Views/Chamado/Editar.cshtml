@@ -5,7 +5,7 @@
 }
 
 <div class="container">
-    <h1 class="display-4 mb-4">Editar Chamado #@Model.Id</h1>
+    <h1 class="display-4 mb-4">Editar Chamado @Model.Id</h1>
 
     <div class="row">
         <div class="col-md-8">
@@ -27,7 +27,7 @@
 
                 <div class="mb-3">
                     <label asp-for="CategoriaId" class="form-label">Categoria</label>
-                    <select asp-for="CategoriaId" class="form-select">
+                    <select asp-for="CategoriaId" class="form-select form-control">
                         <option value="">Selecione uma categoria</option>
                         @if (ViewBag.Categorias != null)
                         {
@@ -44,13 +44,14 @@
 
                 <div class="mb-3">
                     <label asp-for="Prioridade" class="form-label">Prioridade</label>
-                    <select asp-for="Prioridade" class="form-select" asp-items="Html.GetEnumSelectList<MyProject.Models.PrioridadeChamado>()"></select>
+                    <select asp-for="Prioridade" class="form-select form-control" asp-items="Html.GetEnumSelectList<MyProject.Models.PrioridadeChamado>()"></select>
                     <span asp-validation-for="Prioridade" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
                     <label asp-for="Status" class="form-label">Status</label>
-                    <select asp-for="Status" class="form-select">
+                    <select asp-for="Status" class="form-select form-control">
+                        <option value="Aberto">Aberto</option>
                         <option value="Fechado">Fechado</option>
                         <option value="Cancelado">Cancelado</option>
                     </select>
@@ -59,7 +60,7 @@
 
                 <div class="mb-3">
                     <label class="form-label">Data de Abertura</label>
-                    <input type="text" class="form-control" value="@Model.DataAbertura.ToString("dd/MM/yyyy HH:mm")" readonly>
+                    <label class="info-box">@Model.DataAbertura.ToString("dd/MM/yyyy HH:mm")</label>
                 </div>
 
                 @if (Model.DataFechamento.HasValue)
@@ -70,8 +71,10 @@
                     </div>
                 }
 
+                <input asp-for="UsuarioId" type="hidden" />
+
                 <div class="mb-3">
-                    <button type="submit" class="btn btn-primary">
+                    <button type="submit" class="btn plan-button-primary">
                         <i class="fas fa-save"></i> Salvar Alterações
                     </button> |
                     <a asp-controller="Chamado" asp-action="Index" class="btn btn-secondary">

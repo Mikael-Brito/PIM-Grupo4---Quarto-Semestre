@@ -62,9 +62,9 @@
                 <input type="hidden" asp-for="UsuarioId" value="@User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value" />
 
                 <div class="mb-3">
-                    <button type="submit" class="btn btn-primary">
+                    <button type="submit" class="btn plan-button-primary">
                         <i class="fas fa-save"></i> Criar Chamado
-                    </button>
+                    </button> |
                     <a asp-controller="Chamado" asp-action="Index" class="btn btn-secondary">
                         <i class="fas fa-arrow-left"></i> Voltar
                     </a>

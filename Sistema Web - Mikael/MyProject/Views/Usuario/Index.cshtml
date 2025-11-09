@@ -38,7 +38,7 @@
         <div class="header-actions">
             @if (usuarioLogadoIsAdmin)
             {
-                <a href="@Url.Action("CriarUsuario", "Usuario")" class="btn-custom btn-primary-custom">
+                <a asp-controller="Usuario" asp-action="CriarUsuario" class="btn-custom btn-primary-custom">
                     ➕ Adicionar Novo Usuário
                 </a>
             }
@@ -54,7 +54,7 @@
             </div>
 
             <div class="table-responsive">
-                <table class="table table-bordered">
+                <table class="table table-bordered text-center">
                     <thead>
                         <tr>
                             <th>ID</th>
@@ -89,23 +89,26 @@
                                         <span class="badge badge-user">Usuário</span>
                                     }
                                 </td>
-                                @usuarioLogadoNome
                                 @if (usuarioLogadoIsAdmin)
                                 {
-                               <td >
-                                    <a asp-controller="Usuario" asp-action="Editar" asp-route-id="#@usuario.Id" class="text-center btn-action btn-edit rounded-2">
-                                        ✏️ Editar
-                                    </a>
-                                    <a asp-controller="Usuario" asp-action="Apagar" asp-route-id="#@usuario.Id" class="btn-action btn-delete rounded-2">
-                                        🗑️ Apagar
-                                    </a>
-                                </td>
+                                    <td>
+                                        <a asp-controller="Usuario" asp-action="Editar" asp-route-id="@usuario.Id" class="text-center btn-action btn-edit rounded-2">
+                                            ✏️ Editar
+                                        </a>
 
+                                        @* Só mostra o botão de apagar se o usuário da linha NÃO for admin *@
+                                        @if (!usuario.IsAdmin)
+                                        {
+                                            <a asp-controller="Usuario" asp-action="Apagar" asp-route-id="@usuario.Id" class="btn-action btn-delete rounded-2">
+                                                🗑️ Apagar
+                                            </a>
+                                        }
+                                    </td>
                                 }
                                 else
                                 {
                                     <td>
-                                        <a asp-controller="Usuario" asp-action="Editar" asp-route-id="#@usuario.Id" class="btn-action btn-edit rounded-2">
+                                        <a asp-controller="Usuario" asp-action="Editar" asp-route-id="@usuario.Id" class="btn-action btn-edit rounded-2">
                                             ✏️ Editar
                                         </a>
                                     </td>

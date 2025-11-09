@@ -37,8 +37,21 @@
         <!-- Contato -->
         <div class="form-group">
             <label asp-for="Contato" class="form-label">Telefone de Contato *</label>
-            <input asp-for="Contato" class="form-control" placeholder="(11) 99999-9999" required>
+            <input asp-for="Contato"
+                   type="tel"
+                   class="form-control"
+                   pattern="^\d{10,11}$"
+                   placeholder="(99) 99999-9999"
+                   required>
             <span asp-validation-for="Contato" class="text-danger"></span>
+
+        <!--Mascara de Contato-->
+            <script src="https://unpkg.com/inputmask/dist/inputmask.min.js"></script>
+
+            <script>
+                Inputmask({"mask": "(99) 99999-9999[9]"}).mask(document.querySelector('[name="Contato"]'));
+            </script>
+
         </div>
 
         <!-- Senha -->
@@ -62,10 +75,10 @@
 
         <!-- Buttons -->
         <div class="form-buttons">
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" class="btn plan-button-primary">
                 Criar Administrador
             </button>
-            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary text-decoration-none d-flex align-items-center justify-content-center">
+            <a asp-controller="Home" asp-action="Index" class="btn btn-secondary text-decoration-none d-flex align-items-center justify-content-center">
                 Cancelar
             </a>
         </div>

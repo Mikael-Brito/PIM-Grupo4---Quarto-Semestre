@@ -6,7 +6,6 @@
     var usuarioLogadoId = Context.Session.GetInt32("UsuarioLogadoId");
     var usuarioLogadoIsAdmin = Context.Session.GetString("UsuarioLogadoIsAdmin") == "True";
 
-    // Filtra os chamados conforme o tipo de usuário
     var chamadosFiltrados = usuarioLogadoIsAdmin
         ? Model
         : Model.Where(c => c.UsuarioId == usuarioLogadoId).ToList();
@@ -15,7 +14,6 @@
 <link rel="stylesheet" href="~/css/plans_and_auth.css" asp-append-version="true" />
 
 <div class="usuarios-container">
-    <!-- Header Section -->
     <div class="header-section">
         <h1>Gerenciamento de Chamados</h1>
 
@@ -40,22 +38,53 @@
         }
 
         <div class="header-actions">
-            <a href="@Url.Action("Create", "Chamado")" class="btn-custom btn-primary-custom">
+            <a asp-controller="Chamado" asp-action="Create" class="btn-custom btn-primary-custom">
                 ➕ Abrir Novo Chamado
             </a>
         </div>
     </div>
 
-    <!-- Content Section -->
     <div class="content-section">
-        @if (chamadosFiltrados != null && chamadosFiltrados.Any())
+        @if (chamadosFiltrados.Any())
         {
-            <div class="content-header">
+            <div class="content-header d-flex justify-content-between align-items-center">
                 <h2>Chamados Registrados (@chamadosFiltrados.Count)</h2>
+
+                <div class="d-flex gap-2 align-items-center">
+                    @* Filtro por usuário (apenas admin) *@
+                    @if (usuarioLogadoIsAdmin)
+                    {
+                        <div>
+                            <label for="filtroUsuario">Filtrar por Usuário:</label>
+                            <select id="filtroUsuario" class="form-select" style="display:inline-block; width:auto;" onchange="filtrarChamados()">
+                                <option value="todos">Todos</option>
+                                @foreach (var user in Model.Select(c => c.Usuario).Distinct())
+                                {
+                                    if (user != null)
+                                    {
+                                        <option value="@user.Id">@user.Nome</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    }
+
+                    @* Filtro por status (todos) *@
+                    <div>
+                        <label for="filtroStatus">Filtrar por Status:</label>
+                        <select id="filtroStatus" class="form-select" style="display:inline-block; width:auto;" onchange="filtrarChamados()">
+                            <option value="todos">Todos</option>
+                            <option value="Aberto">Aberto</option>
+                            <option value="Em Andamento">Em Andamento</option>
+                            <option value="Fechado">Fechado</option>
+                            <option value="Cancelado">Cancelado</option>
+                        </select>
+                    </div>
+                </div>
             </div>
 
             <div class="table-responsive">
-                <table class="table table-bordered gap-2">
+                <table id="tabelaChamados" class="table table-bordered text-center">
                     <thead>
                         <tr>
                             <th>Título</th>
@@ -64,14 +93,14 @@
                             <th>Status</th>
                             <th>Data Abertura</th>
                             <th>Data Fechamento</th>
-                            <th>Usuário De Abertura</th>
+                            <th>Usuário</th>
                             <th>Ações</th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach (var chamado in chamadosFiltrados)
                         {
-                            <tr>
+                            <tr data-status="@chamado.Status" data-usuario="@chamado.UsuarioId">
                                 <td><strong>@chamado.Titulo</strong></td>
                                 <td>@chamado.Categoria?.Nome</td>
                                 <td>@chamado.Prioridade</td>
@@ -82,26 +111,24 @@
                                     }
                                     else if (chamado.Status == "Em Andamento")
                                     {
-                                        <span class="badge badge-admin">Em Andamento</span>
+                                        <span class="badge btn btn-edit">Em Andamento</span>
+                                    }
+                                    else if (chamado.Status == "Fechado")
+                                    {
+                                        <span class="badge btn btn-success">Fechado</span>
                                     }
                                     else
                                     {
-                                        <span class="badge badge-completed">Fechado</span>
+                                        <span class="badge btn btn-danger">Cancelado</span>
                                     }
                                 </td>
                                 <td>@chamado.DataAbertura.ToString("dd/MM/yyyy")</td>
                                 <td>@chamado.DataFechamento?.ToString("dd/MM/yyyy")</td>
                                 <td>@chamado.Usuario?.Nome</td>
-                                <td class="btn-group d-flex justify-content-center" role="group">
-                                    <a asp-controller="Chamado" asp-action="Editar" asp-route-id="@chamado.Id" class="btn btn-action btn-edit rounded-2">
-                                        ✏️ Editar
-                                    </a>
-                                    <a asp-controller="Chamado" asp-action="Details" asp-route-id="@chamado.Id" class="btn btn-action btn-info rounded-2">
-                                        🔍 Detalhes
-                                    </a>
-                                    <a asp-controller="Chamado" asp-action="Delete" asp-route-id="@chamado.Id" class="btn btn-action btn-delete rounded-2">
-                                        🗑️ Excluir
-                                    </a>
+                                <td class="btn-group justify-content-center">
+                                    <a asp-controller="Chamado" asp-action="Editar" asp-route-id="@chamado.Id" class="btn btn-action btn-edit rounded-2">✏️ Editar</a>
+                                    <a asp-controller="Chamado" asp-action="Details" asp-route-id="@chamado.Id" class="btn btn-action btn-info rounded-2">🔍 Detalhar</a>
+                                    <a asp-controller="Chamado" asp-action="Delete" asp-route-id="@chamado.Id" class="btn btn-action btn-delete rounded-2">🗑️ Apagar</a>
                                 </td>
                             </tr>
                         }
@@ -114,20 +141,35 @@
             <div class="empty-state">
                 <div class="empty-state-icon">📋</div>
                 <h3>Nenhum chamado encontrado</h3>
-                <p>
-                    @if (usuarioLogadoIsAdmin)
-                    {
-                        @:Não há chamados registrados no sistema.
-                    }
-                    else
-                    {
-                        @:Você ainda não abriu nenhum chamado.
-                    }
-                </p>
-                <a href="@Url.Action("Create", "Chamado")" class="btn-add">
+                <a asp-controller ="Chamado" asp-action="Create" class="btn-add">
                     ➕ Abrir Novo Chamado
                 </a>
             </div>
         }
     </div>
 </div>
+
+<script>
+    function filtrarChamados() {
+        const filtroStatus = document.getElementById('filtroStatus')?.value || 'todos';
+        const filtroUsuario = document.getElementById('filtroUsuario')?.value || 'todos';
+        const linhas = document.querySelectorAll('#tabelaChamados tbody tr');
+
+        linhas.forEach(linha => {
+            const status = linha.getAttribute('data-status');
+            const usuario = linha.getAttribute('data-usuario');
+
+            let mostrar = true;
+
+            if (filtroStatus !== 'todos' && status !== filtroStatus) {
+                mostrar = false;
+            }
+
+            if (filtroUsuario !== 'todos' && usuario !== filtroUsuario) {
+                mostrar = false;
+            }
+
+            linha.style.display = mostrar ? '' : 'none';
+        });
+    }
+</script>

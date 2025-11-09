@@ -1,55 +1,58 @@
 ﻿@model MyProject.Models.ChamadoModel
 
 @{
-    ViewData["Title"] = "Detalhes de Chamados";
+    ViewData["Title"] = "Detalhes do Chamado";
 }
 
-<div>
-    <h4>ChamadoModel</h4>
-    <hr />
+<div class="card">
+    <div class="card-header">
+        <h5 class="mb-3 text-primary">📋 Detalhes do Chamado</h5>
+    </div>
+    <div class="card-body">
 
     <table class="table table-bordered table-striped">
         <tbody>
             <tr>
-                <td>@Html.DisplayNameFor(model => model.Titulo)</td>
-                <td>@Html.DisplayFor(model => model.Titulo)</td>
+                <td><strong>Título</strong></td>
+                <td>@Model.Titulo</td>
             </tr>
             <tr>
-                <td>@Html.DisplayNameFor(model => model.Descricao)</td>
-                <td>@Html.DisplayFor(model => model.Descricao)</td>
+                <td><strong>Descrição</strong></td>
+                <td>@Model.Descricao</td>
             </tr>
             <tr>
-                <td>@Html.DisplayNameFor(model => model.Prioridade)</td>
-                <td>@Html.DisplayFor(model => model.Prioridade)</td>
+                <td><strong>Categoria</strong></td>
+                <td>@Model.Categoria?.Nome</td>
             </tr>
             <tr>
-                <td>@Html.DisplayNameFor(model => model.Categoria)</td>
-                <td>@Html.DisplayFor(model => model.Categoria.Nome)</td>
+                <td><strong>Prioridade</strong></td>
+                <td>@Model.Prioridade</td>
             </tr>
             <tr>
-                <td>@Html.DisplayNameFor(model => model.Status)</td>
-                <td>@Html.DisplayFor(model => model.Status)</td>
+                <td><strong>Status</strong></td>
+                <td>@Model.Status</td>
             </tr>
             <tr>
-                <td>@Html.DisplayNameFor(model => model.DataAbertura)</td>
-                <td>@Html.DisplayFor(model => model.DataAbertura)</td>
+                <td><strong>Data de Abertura</strong></td>
+                <td>@Model.DataAbertura.ToString("dd/MM/yyyy")</td>
             </tr>
             <tr>
-                <td>@Html.DisplayNameFor(model => model.DataFechamento)</td>
-                <td>@Html.DisplayFor(model => model.DataFechamento)</td>
+                <td><strong>Data de Fechamento</strong></td>
+                <td>@Model.DataFechamento?.ToString("dd/MM/yyyy")</td>
             </tr>
             <tr>
-                <td>@Html.DisplayNameFor(model => model.Usuario)</td>
-                <td>@Html.DisplayFor(model => model.Usuario.Nome)</td>
+                <td><strong>Usuário Responsável</strong></td>
+                <td>@Model.Usuario?.Nome</td>
             </tr>
         </tbody>
     </table>
 
+    <div class="mt-3">
+        <a asp-controller="Chamado" asp-action="Editar" asp-route-id="@Model.Id" class="btn btn-warning">
+            ✏️ Editar
+        </a> |
+        <a asp-controller="Chamado" asp-action="Index" class="btn btn-secondary">
+            Voltar
+        </a>
+    </div>
 </div>
-<div>
-    <a asp-controller="Chamado" asp-action="Editar" asp-route-id="@Model.Id" class="btn btn-action btn-edit">✏️ Editar</a>|
-    <a asp-controller="Chamado" asp-action="Index" class="btn btn-secondary">
-        <i class="fas fa-arrow-left"></i> Voltar
-    </a>
-</div>
-

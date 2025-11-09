@@ -5,7 +5,7 @@
 }
 
 <div class="container">
-    <h1 class="display-4 mb-4">Editar Usuário #@Model.Id</h1>
+    <h1 class="display-4 mb-4">Editar Usuário @Model.Id</h1>
 
     <div class="row">
         <div class="col-md-8">
@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <button type="submit" class="btn btn-primary btn-lg">
+                    <button type="submit" class="btn plan-button-primary btn-lg">
                         <i class="fas fa-save"></i> Salvar Alterações
                     </button> |
                     <a class="btn btn-secondary btn-lg" asp-controller="Usuario" asp-action="Index">
@@ -66,11 +66,6 @@
         const senha = document.querySelector('input[name="Senha"]').value;
         const confirmaSenha = document.getElementById('confirma_senha').value;
         const erroDiv = document.getElementById('senhaErro');
-
-        if (confirmaSenha === '') {
-            erroDiv.style.display = 'none';
-            return;
-        }
 
         if (senha !== confirmaSenha) {
             erroDiv.style.display = 'block';
