@@ -9,6 +9,11 @@
     var chamadosFiltrados = usuarioLogadoIsAdmin
         ? Model
         : Model.Where(c => c.UsuarioId == usuarioLogadoId).ToList();
+    var totalAbertos = chamadosFiltrados.Count(c => c.Status == "Aberto");
+    var totalEmAndamento = chamadosFiltrados.Count(c => c.Status == "Em Andamento");
+    var totalFechados = chamadosFiltrados.Count(c => c.Status == "Fechado");
+    var totalCancelados = chamadosFiltrados.Count(c => c.Status == "Cancelado");
+
 }
 
 <link rel="stylesheet" href="~/css/plans_and_auth.css" asp-append-version="true" />
@@ -49,6 +54,29 @@
         {
             <div class="content-header d-flex justify-content-between align-items-center">
                 <h2>Chamados Registrados (@chamadosFiltrados.Count)</h2>
+
+                <div class="row mt-3 g-3" style="max-width: 420px;">
+                    <div class="col-6">
+                        <span class="badge bg-secondary w-75">
+                            Abertos: @chamadosFiltrados.Count(c => c.Status == "Aberto")
+                        </span>
+                    </div>
+                    <div class="col-6">
+                        <span class="badge btn btn-edit w-75">
+                            Em Andamento: @chamadosFiltrados.Count(c => c.Status == "Em Andamento")
+                        </span>
+                    </div>
+                    <div class="col-6">
+                        <span class="badge bg-success w-75">
+                            Fechados: @chamadosFiltrados.Count(c => c.Status == "Fechado")
+                        </span>
+                    </div>
+                    <div class="col-6">
+                        <span class="badge bg-danger w-75 p-2">
+                            Cancelados: @chamadosFiltrados.Count(c => c.Status == "Cancelado")
+                        </span>
+                    </div>
+                </div>
 
                 <div class="d-flex gap-2 align-items-center">
                     @* Filtro por usuário (apenas admin) *@
