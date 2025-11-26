@@ -1,0 +1,103 @@
+﻿@{
+    ViewData["Title"] = "Chat com IA - Suporte Técnico";
+}
+
+<link rel="stylesheet" href="~/css/ChatBot.css" />
+
+<div class="chat-container">
+
+    <h1>Chat com IA - Suporte Técnico</h1>
+    <p>Descreva seu problema e nossa IA tentará ajudá-lo. Se não conseguir resolver, você poderá abrir um chamado.</p>
+
+    <div class="chat-messages" id="chatMessages">
+        <div class="message ai-message">
+            <strong>IA:</strong> Olá! Sou seu assistente virtual. Como posso ajudá-lo hoje?
+            Descreva o problema que está enfrentando.
+        </div>
+    </div>
+
+    <div class="input-area">
+        <input type="text" id="userInput" placeholder="Digite sua mensagem..." onkeypress="handleKeyPress(event)">
+        <button onclick="sendMessage()">Enviar</button>
+    </div>
+
+    <div class="action-buttons">
+        <button onclick="resolverProblema()" class="btn-resolver">Problema Resolvido</button>
+        <button onclick="naoResolveu()" class="btn-nao-resolveu">Não Resolveu - Abrir Chamado</button>
+    </div>
+</div>
+
+<script>
+    // Enviar ao pressionar ENTER
+    function handleKeyPress(event) {
+        if (event.key === 'Enter') {
+            sendMessage();
+        }
+    }
+
+    // Enviar mensagem ao backend ASP.NET MVC
+    async function sendMessage() {
+        const input = document.getElementById('userInput');
+        const message = input.value.trim();
+
+        if (message === '') return;
+
+        // Exibir mensagem do usuário
+        addMessage('Usuário', message, 'user-message');
+
+        input.value = '';
+
+        try {
+            const response = await fetch('/Chat/EnviarMensagem', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: message })
+            });
+
+            const data = await response.json();
+
+            // Exibir resposta da IA
+            addMessage('IA', data.reply, 'ai-message');
+
+        } catch (error) {
+            addMessage('Sistema', '❌ Erro ao conectar com a IA.', 'ai-message');
+        }
+    }
+
+    // Função para adicionar mensagem visualmente no chat
+    function addMessage(sender, message, className) {
+        const chatMessages = document.getElementById('chatMessages');
+
+        const messageDiv = document.createElement('div');
+        messageDiv.className = 'message ' + className;
+        messageDiv.innerHTML = `<strong>${sender}:</strong> ${message}`;
+
+        chatMessages.appendChild(messageDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    // Botão "Problema resolvido"
+    function resolverProblema() {
+        alert("Ótimo! Fico feliz que conseguimos resolver seu problema. Tenha um bom dia!");
+        window.location.href = '/Chamado/';
+    }
+
+    // Botão "Não resolveu"
+    function naoResolveu() {
+        if (confirm("Você será redirecionado para abrir um chamado. Deseja continuar?")) {
+            window.location.href = '/Chamado/Create';
+        }
+    }
+</script>
+
+<style>
+    .btn-resolver {
+        background-color: green;
+        color: white;
+    }
+
+    .btn-nao-resolveu {
+        background-color: red;
+        color: white;
+    }
+</style>

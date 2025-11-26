@@ -15,48 +15,48 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // ------------------------------------------------------
+// REGISTRO OBRIGATÓRIO PARA IHttpClientFactory
+// ------------------------------------------------------
+builder.Services.AddHttpClient(); // <-- ESTA É A LINHA QUE FALTAVA
+
+// ------------------------------------------------------
 // Configuração do Banco de Dados (Entity Framework Core)
 // ------------------------------------------------------
-// Define o AppDbContext e o provedor SQL Server, 
-// utilizando a ConnectionString definida no appsettings.json
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // ------------------------------------------------------
 // Configuração de Sessão
 // ------------------------------------------------------
-// A sessão é usada para armazenar dados temporários do usuário (como ID logado)
-builder.Services.AddDistributedMemoryCache(); // Usa memória para cache da sessão
+builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // Tempo de expiração da sessão
-    options.Cookie.HttpOnly = true;                 // Acesso restrito apenas via HTTP
-    options.Cookie.IsEssential = true;              // Cookie essencial para funcionamento
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
 });
 
 // ------------------------------------------------------
 // Configuração de Autenticação com Cookie
 // ------------------------------------------------------
-// Define autenticação baseada em cookie (login persistente)
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.LoginPath = "/Login/Login";              // Caminho da página de login
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(30); // Duração do cookie
-        options.SlidingExpiration = true;                // Renova automaticamente antes de expirar
+        options.LoginPath = "/Login/Login";
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+        options.SlidingExpiration = true;
     });
 
 // ------------------------------------------------------
 // Configuração do Swagger (Documentação da API)
 // ------------------------------------------------------
-// Swagger gera uma interface web para testar e documentar a API
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "MyProject API",               // Título exibido no Swagger
-        Version = "v1",                        // Versão da documentação
+        Title = "MyProject API",
+        Version = "v1",
         Description = "Documentação automática da API do projeto"
     });
 });
@@ -68,12 +68,10 @@ var app = builder.Build();
 //               CONFIGURAÇÃO DO PIPELINE HTTP
 // ======================================================
 
-// Configurações específicas para o ambiente de desenvolvimento
 if (app.Environment.IsDevelopment())
 {
-    app.UseDeveloperExceptionPage(); // Mostra detalhes dos erros (modo Dev)
+    app.UseDeveloperExceptionPage();
 
-    // Ativa o Swagger e sua interface no ambiente de desenvolvimento
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
@@ -82,27 +80,23 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    // Configuração de tratamento de erros no ambiente de produção
     app.UseExceptionHandler("/Home/Error");
-    app.UseHsts(); // Ativa HTTP Strict Transport Security
+    app.UseHsts();
 }
 
-// ------------------------------------------------------
-// Middlewares principais do ASP.NET Core
-// ------------------------------------------------------
-app.UseHttpsRedirection(); // Redireciona requisições HTTP para HTTPS
-app.UseStaticFiles();      // Habilita o uso de arquivos estáticos (CSS, JS, imagens)
+// Middlewares principais
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
-app.UseRouting();          // Ativa o roteamento entre controladores
+app.UseRouting();
 
-app.UseSession();          // Habilita o uso de sessão na aplicação
-app.UseAuthentication();   // Habilita autenticação via cookie
-app.UseAuthorization();    // Habilita autorização (controle de acesso)
+app.UseSession();
+app.UseAuthentication();
+app.UseAuthorization();
 
 // ------------------------------------------------------
 // Rota padrão da aplicação MVC
 // ------------------------------------------------------
-// Define que a rota inicial será HomeController -> Index()
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

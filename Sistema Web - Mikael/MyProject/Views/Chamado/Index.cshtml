@@ -125,11 +125,36 @@
                                 <td>@chamado.DataAbertura.ToString("dd/MM/yyyy")</td>
                                 <td>@chamado.DataFechamento?.ToString("dd/MM/yyyy")</td>
                                 <td>@chamado.Usuario?.Nome</td>
-                                <td class="btn-group justify-content-center">
-                                    <a asp-controller="Chamado" asp-action="Editar" asp-route-id="@chamado.Id" class="btn btn-action btn-edit rounded-2">✏️ Editar</a>
-                                    <a asp-controller="Chamado" asp-action="Details" asp-route-id="@chamado.Id" class="btn btn-action btn-info rounded-2">🔍 Detalhar</a>
-                                    <a asp-controller="Chamado" asp-action="Delete" asp-route-id="@chamado.Id" class="btn btn-action btn-delete rounded-2">🗑️ Apagar</a>
-                                </td>
+
+                                @if (chamado.Status == "Cancelado")
+                                {
+                                    <td class="btn-group w-100 justify-content-center">
+                                        <a asp-controller="Chamado" asp-action="Details" asp-route-id="@chamado.Id" class="btn btn-action btn-info rounded-2">🔍 Detalhar</a>
+                                        <a asp-controller="Chamado" asp-action="Delete" asp-route-id="@chamado.Id" class="btn btn-action btn-delete rounded-2">🗑️ Apagar</a>
+                                    </td>
+                                }
+                                else if (chamado.Status == "Aberto")
+                                {
+                                    <td class="btn-group w-100 justify-content-center">
+                                        <a asp-controller="Chamado" asp-action="Editar" asp-route-id="@chamado.Id" class="btn btn-action btn-edit rounded-2">✏️ Editar</a>
+                                        <a asp-controller="Chamado" asp-action="Details" asp-route-id="@chamado.Id" class="btn btn-action btn-info rounded-2">🔍 Detalhar</a>
+                                        <a asp-controller="Chamado" asp-action="Delete" asp-route-id="@chamado.Id" class="btn btn-action btn-delete rounded-2">🗑️ Apagar</a>
+                                    </td>
+                                }
+                                else if (chamado.Status == "Em Andamento")
+                                {
+                                    <td class="btn-group w-100 justify-content-center">
+                                        <a asp-controller="Chamado" asp-action="Editar" asp-route-id="@chamado.Id" class="btn btn-action btn-edit rounded-2">✏️ Editar</a>
+                                        <a asp-controller="Chamado" asp-action="Details" asp-route-id="@chamado.Id" class="btn btn-action btn-info rounded-2">🔍 Detalhar</a>
+                                    </td>
+                                }
+                                else if (chamado.Status == "Fechado")
+                                {
+                                    <td class="btn-group w-100 justify-content-center">
+                                        <a asp-controller="Chamado" asp-action="Details" asp-route-id="@chamado.Id" class="btn btn-action btn-info rounded-2">🔍 Detalhar</a>
+                                    </td>
+                                }
+
                             </tr>
                         }
                     </tbody>

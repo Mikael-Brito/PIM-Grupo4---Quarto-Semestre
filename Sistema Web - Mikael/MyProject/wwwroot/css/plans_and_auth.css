@@ -65,13 +65,13 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
-    .plan-card.featured {
+    .plan-card.popular {
         border-color: #2196F3;
         border-width: 3px;
         transform: scale(1.05);
     }
 
-    .plan-card.featured::before {
+    .plan-card.popular::before {
         content: "MAIS POPULAR";
         position: absolute;
         top: -15px;
