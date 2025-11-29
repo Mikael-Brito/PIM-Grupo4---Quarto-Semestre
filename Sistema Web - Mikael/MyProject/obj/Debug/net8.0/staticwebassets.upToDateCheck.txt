@@ -1,3 +1,5 @@
+wwwroot\Arquivos\Help Desk - ADS (Apresentacao).pptx
+wwwroot\Arquivos\PIM - 4 (HelpDesk - ADS) IMPRESÄO.pdf
 wwwroot\css\ChatBot.css
 wwwroot\css\Login.css
 wwwroot\css\plans_and_auth.css
